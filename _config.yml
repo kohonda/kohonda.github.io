@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+title: kohonda page
+description: ________________________________
+markdown: GFM
+highlighter: rouge
