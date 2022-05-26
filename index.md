@@ -43,6 +43,10 @@
 
 ## Publications
 
+### 2022
+- 寺野玲央，本田康平，奥田裕之，鈴木達也，"合流車両に配慮した本線車両のモデル予測型車速制御", "Model Predictive Vehicle Speed Control for Mainlane Vehicles Considering Merging Vechiles"， 自動車技術会学術講演会2022春季大会，No. 037，5/25-5/27(5/25)，パシフィコ横浜，横浜，2022.
+- K.Honda, H.Okuda, T.Suzuki, and A.Ito, Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving, Asian Journal of Control, 2022. (In publication)
+
 ### 2021
 
 - 本田康平, 奥田裕之, 鈴木達也. 非線形モデル予測制御を用いたレーンチェンジにおける行動決定・経路計画・制御の同時実行. 自動車技術会論文集, Vol. 52, No. 1, pp.100–105, 2021.
