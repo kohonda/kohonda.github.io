@@ -45,7 +45,7 @@
 
 ### 2022
 - 寺野玲央，本田康平，奥田裕之，鈴木達也，"合流車両に配慮した本線車両のモデル予測型車速制御", "Model Predictive Vehicle Speed Control for Mainlane Vehicles Considering Merging Vechiles"， 自動車技術会学術講演会2022春季大会，No. 037，5/25-5/27(5/25)，パシフィコ横浜，横浜，2022.
-- K.Honda, H.Okuda, T.Suzuki, and A.Ito, Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving, Asian Journal of Control, 2022. (In publication)
+- K. Honda, H. Okuda, T. Suzuki, and A. Ito, Connection of nonlinear model predictive controllers for smooth task switching in autonomous driving, Asian J. Control, pp. 1-18, 2022. [link](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2892)
 - M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems (ITSC), 2022. (Accepted)
 
 ### 2021
