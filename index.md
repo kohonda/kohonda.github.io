@@ -26,8 +26,8 @@
 
 - Apr. 2021- Present: Tateishi Science and Technology Foundation Research Grants (C) [[link](https://www.tateisi-f.org/documents/engine/SearchList.php)]
 - Apr. 2021-Present: Nagoya University Interdisciplinary Frontier Fellowship [[link](https://dec.nagoya-u.ac.jp/fellowship_information)]
-- Mar. 2021: IEEE Nagoya Section Excellent Student Award, [[link](https://ieee-jp.org/section/nagoya/2021/03/20/2021%E5%B9%B4ieee%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%94%AF%E9%83%A8%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E8%B3%9E%E5%8F%97%E8%B3%9E%E8%80%85%E3%81%AE%E3%81%94%E5%A0%B1/)]
   - Outstanding Fellow (2022-2023)
+- Mar. 2021: IEEE Nagoya Section Excellent Student Award, [[link](https://ieee-jp.org/section/nagoya/2021/03/20/2021%E5%B9%B4ieee%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%94%AF%E9%83%A8%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E8%B3%9E%E5%8F%97%E8%B3%9E%E8%80%85%E3%81%AE%E3%81%94%E5%A0%B1/)]
 - Apr. 2020-Present: Nagoya University DII Collaborative Graduate Program for Accelerating Innovation in Future Electronics Fellow [[link](https://www.dii.engg.nagoya-u.ac.jp/)]
 - 2019: Tongali Business Plan Contest, Director General's Award for Promotion of Academic Research [[link](https://tongali.net/biz-contest2019/)]
 - Mar. 2019: Nagoya Kogyoukai Award (Graduated B.S. with second honors)
