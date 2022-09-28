@@ -26,6 +26,7 @@
 
 ## Grants/Awards
 
+- Apr. 2023- : JSPS Research Fellowship for Young Scientists (DC2)
 - Apr. 2021- Present: Tateishi Science and Technology Foundation Research Grants (C) [[link](https://www.tateisi-f.org/documents/engine/SearchList.php)]
 - Apr. 2021-Present: Nagoya University Interdisciplinary Frontier Fellowship [[link](https://dec.nagoya-u.ac.jp/fellowship_information)]
   - Outstanding Fellow (2022-2023)
