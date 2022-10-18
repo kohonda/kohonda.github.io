@@ -4,11 +4,15 @@
 
 - E-mail: honda.kohei.b0[at]s.mail.nagoya-u.ac.jp  ([at] -> @)
 
-## Interests
+## Research Interests
 
-- Autonomous Mobility
-- Motion Planning and Control
-- SLAM
+- Autonomous mobility
+  - Motion Planning and Control
+  - SLAM
+- Theory
+  - Model Predictive Control  
+  - Reinforcement Learning
+  - Integration of classical and learning-based methods
 
 ## Work experience
 
@@ -35,14 +39,14 @@
 - 2019: Tongali Business Plan Contest, Director General's Award for Promotion of Academic Research [[link](https://tongali.net/biz-contest2019/)]
 - Mar. 2019: Nagoya Kogyoukai Award (Graduated B.S. with second honors)
 
-## Research Topics
+<!-- ## Research Topics
 
 **Under updating**
 
 - Multi-task model predictive control (MPC)
 - Lidar odometry estimation using 3D features
 - Auto lane change system by model predictive control (MPC)
-- Restaurant service robot
+- Restaurant service robot -->
   
 
 ## Publications
@@ -50,7 +54,8 @@
 ### 2022
 - 寺野玲央，本田康平，奥田裕之，鈴木達也，"合流車両に配慮した本線車両のモデル予測型車速制御", "Model Predictive Vehicle Speed Control for Mainlane Vehicles Considering Merging Vechiles"， 自動車技術会学術講演会2022春季大会，No. 037，5/25-5/27(5/25)，パシフィコ横浜，横浜，2022.
 - K. Honda, H. Okuda, T. Suzuki, and A. Ito, Connection of nonlinear model predictive controllers for smooth task switching in autonomous driving, Asian J. Control, pp. 1-18, 2022. [link](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2892)
-- M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems (ITSC), 2022. (Accepted)
+- M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems (ITSC), 2022. (In print)
+- K. Honda, K. Koide, M. Yokozuka, S. Oishi, and A. Banno, Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features, IEEE Robotics and Automation Letters, 2022. (In print and will present ICRA 2023). [link](https://kohonda.github.io/proj-gloam/)
 
 ### 2021
 
@@ -89,7 +94,6 @@
 - Japanese (Native)
 
 - English (Business Fluent Level, IELTS overall score: 6.0 (2020) )
-
 
 
 ## links
