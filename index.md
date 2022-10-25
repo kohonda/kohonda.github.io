@@ -1,6 +1,6 @@
 [[Github](https://github.com/kohonda)/[Linkdin](https://www.linkedin.com/in/kohei-honda-a527b8190/)/[Twitter](https://twitter.com/fuzisim)]
 
-- Ph.D student @[Mobility System Group](https://www.suzlab.mae.nagoya-u.ac.jp/en/), Nagoya University Graduate School
+- Ph.D student @[Mobility System Group](https://www.suzlab.mae.nagoya-u.ac.jp/en/), Nagoya University, Japan
 - E-mail: honda.kohei.b0[at]s.mail.nagoya-u.ac.jp  ([at] -> @)
 
 ## Research Interests
