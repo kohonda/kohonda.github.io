@@ -41,6 +41,10 @@
 
 ## Publications
 
+### Preprint
+
+- K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control [[Link]](https://kohonda.github.io/proj-mpc_builder/)
+
 ### International Journal
 
 - K. Honda, K. Koide, M. Yokozuka, S. Oishi, and A. Banno, Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features, IEEE Robotics and Automation Letters, 2022. (In print and will be presented at ICRA 2023). [[Link]](https://kohonda.github.io/proj-gloam/)
