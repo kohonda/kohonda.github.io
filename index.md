@@ -5,13 +5,13 @@
 
 ## Research Interests
 
-- Autonomous mobility
+- Autonomous Mobile Robotics
   - Motion Planning and Control
   - SLAM
-- Method
+- Theory
   - Model Predictive Control  
   - Reinforcement Learning
-  - Integration of classical and learning-based methods
+  - Integration of model-based and learning-based methods
 
 ## Work experience
 
