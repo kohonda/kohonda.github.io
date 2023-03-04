@@ -52,6 +52,7 @@
 
 ### International Conference
 
+- **[IFAC '23]** S. Gangadhar, Z. Wang, K. Poku, N. Yamada, K. Honda, Y. Nakahira, H. Okuda, and T. Suzuki, An occlusion- and interaction-aware safe control strategy for autonomous vehicles, IFAC World Congress, 2023. [In print]
 - **[ITSC '22]** M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems, pp. 2863-2868 2022. [[Link]](https://ieeexplore.ieee.org/abstract/document/9922126)
 - **[IV '21]** M.Aoki, K. Honda, H. Okuda, and T. Suzuki. Comparative Study of Prediction Models for Model Predictive Path-Tracking Control in Wide Driving Speed Range. 2021 32nd IEEE Intelligent Vehicles Symposium, pp.1261-1267, 2021. [[Link]](https://ieeexplore.ieee.org/abstract/document/9575868)
 - **[ITSC '20]** K. Honda, H. Okuda, and T. Suzuki. Multi-task model predictive control based on continuation with intermediate mode. In 2020 IEEE 23rd International Conference on Intelligent Transportation Systems, pp. 1-7, 2020. [[Link]](https://ieeexplore.ieee.org/abstract/document/9294663)
