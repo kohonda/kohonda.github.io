@@ -29,6 +29,7 @@
 
 ## Grants/Awards
 
+- Mar. 2023: 第12回「企業と博士人材の交流会」企業が選ぶ優秀な博士人材 優秀賞 (122名中上位5名) [[link](https://dec.nagoya-u.ac.jp/career/kouryukai/#2021award)]
 - Apr. 2023- : JSPS Research Fellowship for Young Scientists (DC2)
 - Apr. 2021- Present: Tateishi Science and Technology Foundation Research Grants (C) [[link](https://www.tateisi-f.org/documents/engine/SearchList.php)]
 - Apr. 2021-Present: Nagoya University Interdisciplinary Frontier Fellowship [[link](https://dec.nagoya-u.ac.jp/fellowship_information)]
