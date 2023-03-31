@@ -15,8 +15,8 @@
 
 ## Work experience
 
-- Jul. 2022 - Present: Research Internship @[OMRON SINIC X](https://www.omron.com/sinicx/en/)
-- Apr. 2022 - Present: Research Collaborator @[Mobile Robotics Research Team](https://unit.aist.go.jp/hcmrc/mr-rt/index.html), National Institute of Advanced Industrial Science and Technology (AIST)
+- Jul. 2022 - Mar. 2023: Research Internship @[OMRON SINIC X](https://www.omron.com/sinicx/en/)
+- Apr. 2022 - Aug. 2022: Research Collaborator @[Mobile Robotics Research Team](https://unit.aist.go.jp/hcmrc/mr-rt/index.html), National Institute of Advanced Industrial Science and Technology (AIST)
 - Jan. 2022 - Mar. 2022: Research Internship @[Mobile Robotics Research Team](https://unit.aist.go.jp/hcmrc/mr-rt/index.html), National Institute of Advanced Industrial Science and Technology (AIST)
 - Apr. 2021 - Present: Research Assistant @Nagoya University
 - Sept. 2019  - Apr. 2021: Software Engineer @[MapIV, Inc.](https://www.map4.jp/)
@@ -42,9 +42,8 @@
 
 ## Publications
 
-### Preprint
+<!-- ### Preprint -->
 
-- K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control [[Link]](https://kohonda.github.io/proj-mpc_builder/)
 
 ### International Journal
 
@@ -53,6 +52,8 @@
 
 ### International Conference
 
+- **[IV '23]** K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control, IEEE Intelligent Vehicles, 2023. (In print) [[Link]](https://kohonda.github.io/proj-mpc_builder/)
+- **[IV '23]** C. Kuan, K. Honda, H. Okuda, and T. Suzuki, Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control, IEEE Intelligent Vehicles, 2023. (In print) 
 - **[IFAC '23]** S. Gangadhar, Z. Wang, K. Poku, N. Yamada, K. Honda, Y. Nakahira, H. Okuda, and T. Suzuki, An occlusion- and interaction-aware safe control strategy for autonomous vehicles, IFAC World Congress, 2023. [In print]
 - **[ITSC '22]** M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems, pp. 2863-2868 2022. [[Link]](https://ieeexplore.ieee.org/abstract/document/9922126)
 - **[IV '21]** M.Aoki, K. Honda, H. Okuda, and T. Suzuki. Comparative Study of Prediction Models for Model Predictive Path-Tracking Control in Wide Driving Speed Range. 2021 32nd IEEE Intelligent Vehicles Symposium, pp.1261-1267, 2021. [[Link]](https://ieeexplore.ieee.org/abstract/document/9575868)
@@ -84,12 +85,13 @@
 
 ## Skills
 
-- C/C++
-- Python
-- Matlab/Simulink
-- ROS
-- Pytorch
-- Stable-baseline3
-- Autoware
+- C/C++ (5Y+)
+- Python (3Y+)
+- Matlab/Simulink (1Y+)
+- ROS (3Y+)
+- ROS 2 (1Y+)
+- Pytorch (1Y+)
+<!-- - Stable-baseline3 -->
+<!-- - Autoware -->
 
 
