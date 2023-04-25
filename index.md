@@ -42,7 +42,9 @@
 
 ## Publications
 
-<!-- ### Preprint -->
+### Preprint
+
+- K. Honda, R. Yonetani, M. Nishimura, and T. Kozuno, When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning, 2023. [[Link]](https://arxiv.org/abs/2304.12046)
 
 
 ### International Journal
