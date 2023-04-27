@@ -50,7 +50,7 @@
 ### International Journal
 
 - **[RA-L with ICRA '23]** K. Honda, K. Koide, M. Yokozuka, S. Oishi and A. Banno, Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features, IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 12459-12466, 2022. [[Link]](https://kohonda.github.io/proj-gloam/)
-- **[AJC]** K. Honda, H. Okuda, T. Suzuki, and A. Ito, Connection of nonlinear model predictive controllers for smooth task switching in autonomous driving, Asian J. Control, pp. 1-18, 2022. [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2892)
+- **[AJC]** K. Honda, H. Okuda, T. Suzuki, and A. Ito, Connection of nonlinear model predictive controllers for smooth task switching in autonomous driving, Asian J. Control, vol. 25, no. 3, pp.1805-1822, 2023. [[Link]](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2892)
 
 ### International Conference
 
