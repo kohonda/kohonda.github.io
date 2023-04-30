@@ -78,7 +78,8 @@
 
 ## Patent
 
-- Dec. 2021: JP patent #2021-158118(C20210251JP#P01), Autonomous driving using hybrid model predictive control 
+<!-- - Dec. 2021: JP patent #2021-158118(C20210251JP#P01), Autonomous driving using hybrid model predictive control  -->
+- Control device for vehicle #US20230100017A1 [[Link]](https://patents.google.com/patent/US20230100017A1/en)
 
 ## Reviewer experience
 
