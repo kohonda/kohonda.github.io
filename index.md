@@ -18,7 +18,7 @@
 - Jul. 2022 - Mar. 2023: Research Internship @[OMRON SINIC X](https://www.omron.com/sinicx/en/)
 - Apr. 2022 - Aug. 2022: Research Collaborator @[Mobile Robotics Research Team](https://unit.aist.go.jp/hcmrc/mr-rt/index.html), National Institute of Advanced Industrial Science and Technology (AIST)
 - Jan. 2022 - Mar. 2022: Research Internship @[Mobile Robotics Research Team](https://unit.aist.go.jp/hcmrc/mr-rt/index.html), National Institute of Advanced Industrial Science and Technology (AIST)
-- Apr. 2021 - Present: Research Assistant @Nagoya University
+- Apr. 2021 - May 2023: Research Assistant @Nagoya University
 - Sept. 2019  - Apr. 2021: Software Engineer @[MapIV, Inc.](https://www.map4.jp/)
 
 ## Education
