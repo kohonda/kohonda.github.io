@@ -29,6 +29,7 @@
 
 ## Grants/Awards
 
+- Jun. 2023: 4th and 3rd place in the F1tenth automous vehicle competition at IEEE ICRA 2023 and IV 2023. [[link](https://icra2023-race.f1tenth.org/results.html)]
 - Mar. 2023: 第12回「企業と博士人材の交流会」企業が選ぶ優秀な博士人材 優秀賞 (122名中上位5名) [[link](https://dec.nagoya-u.ac.jp/career/kouryukai/)]
 - Apr. 2023-: JSPS Research Fellowship for Young Scientists (DC2)
 - Apr. 2021-Present: Tateishi Science and Technology Foundation Research Grants (C) [[link](https://www.tateisi-f.org/documents/engine/SearchList.php)]
