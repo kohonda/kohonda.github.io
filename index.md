@@ -56,6 +56,7 @@
 
 ### International Conference
 
+- **[ITSC '23]** N. Yamada, K. Honda, H. Okuda, T. Suzuki, and Y. Nakahira, Bayesian Network-based Probabilistic Constraints for Safe Autonomous Driving in Occlusion Environments, IEEE International Conference on Intelligent Transportation Systems, 2023. (In print)
 - **[IV '23]** K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control, IEEE Intelligent Vehicles, 2023. (In print) [[Link]](https://kohonda.github.io/proj-mpc_builder/)
 - **[IV '23]** C. Kuan, K. Honda, H. Okuda, and T. Suzuki, Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control, IEEE Intelligent Vehicles, 2023. (In print) 
 - **[IFAC '23]** S. Gangadhar, Z. Wang, K. Poku, N. Yamada, K. Honda, Y. Nakahira, H. Okuda, and T. Suzuki, An occlusion- and interaction-aware safe control strategy for autonomous vehicles, IFAC World Congress, 2023. [In print]
