@@ -40,7 +40,7 @@
 - Mar. 2019: Nagoya Kogyoukai Award (Graduated B.S. with second honors)
 
 ## Activities
-- Jun. 2023: 4th and 3rd place in the F1tenth automous vehicle competition at IEEE ICRA 2023 and IV 2023. [[link](https://icra2023-race.f1tenth.org/results.html)]  
+- Jun. 2023: 4th and 3rd place in the F1tenth automous vehicle competition at IEEE ICRA 2023 and IV 2023. [[link](https://icra2023-race.f1tenth.org/results.html)] [[slide](https://drive.google.com/file/d/1Awxau9PNYJfa_KPSwExoo6JETxTiqgsM/view?usp=sharing)]
 
 ## Publications
 
