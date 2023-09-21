@@ -9,7 +9,8 @@
   - Motion Planning and Control
   - SLAM
 - Theory
-  - Model Predictive Control  
+  - Model Predictive Control
+  - Control as Inference
   - Reinforcement Learning
   - Integration of model-based and learning-based methods
 
@@ -46,8 +47,8 @@
 
 ### Preprint
 
+- K. Honda, N. Akai, K. Suzuki, M. Aoki, H. Hosogaya, H. Okuda, and T. Suzuki, Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles, 2023. [[Link]](https://arxiv.org/abs/2309.11040)
 - K. Honda, R. Yonetani, M. Nishimura, and T. Kozuno, When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning, 2023. [[Link]](https://arxiv.org/abs/2304.12046)
-
 
 ### International Journal
 
@@ -57,9 +58,9 @@
 ### International Conference
 
 - **[ITSC '23]** N. Yamada, K. Honda, H. Okuda, T. Suzuki, and Y. Nakahira, Bayesian Network-based Probabilistic Constraints for Safe Autonomous Driving in Occlusion Environments, IEEE International Conference on Intelligent Transportation Systems, 2023. (In print)
-- **[IV '23]** K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control, IEEE Intelligent Vehicles, 2023. (In print) [[Link]](https://kohonda.github.io/proj-mpc_builder/)
-- **[IV '23]** C. Kuan, K. Honda, H. Okuda, and T. Suzuki, Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control, IEEE Intelligent Vehicles, 2023. (In print) 
-- **[IFAC '23]** S. Gangadhar, Z. Wang, K. Poku, N. Yamada, K. Honda, Y. Nakahira, H. Okuda, and T. Suzuki, An occlusion- and interaction-aware safe control strategy for autonomous vehicles, IFAC World Congress, 2023. [In print]
+- **[IV '23]** K. Honda, H. Okuda, A.Ito, and T. Suzuki, MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control, IEEE Intelligent Vehicles, pp. 1-8 , 2023. [[Link]](https://kohonda.github.io/proj-mpc_builder/)
+- **[IV '23]** C. Kuan, K. Honda, H. Okuda, and T. Suzuki, Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control, IEEE Intelligent Vehicles, pp. 1-8, 2023. [[Link]](https://ieeexplore.ieee.org/abstract/document/10186692) 
+- **[IFAC '23]** S. Gangadhar, Z. Wang, K. Poku, N. Yamada, K. Honda, Y. Nakahira, H. Okuda, and T. Suzuki, An occlusion- and interaction-aware safe control strategy for autonomous vehicles, IFAC World Congress, 2023. [[Link]](https://ppms.cit.cmu.edu/media/project_files/P6_IFAC23_AV_occlusion.pdf)
 - **[ITSC '22]** M.Aoki, K.Honda, H.Okuda, T.Suzuki, A.Ito, and D.Nagasaka, Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure, International Conference on Intelligent Transportation Systems, pp. 2863-2868 2022. [[Link]](https://ieeexplore.ieee.org/abstract/document/9922126)
 - **[IV '21]** M.Aoki, K. Honda, H. Okuda, and T. Suzuki. Comparative Study of Prediction Models for Model Predictive Path-Tracking Control in Wide Driving Speed Range. 2021 32nd IEEE Intelligent Vehicles Symposium, pp.1261-1267, 2021. [[Link]](https://ieeexplore.ieee.org/abstract/document/9575868)
 - **[ITSC '20]** K. Honda, H. Okuda, and T. Suzuki. Multi-task model predictive control based on continuation with intermediate mode. In 2020 IEEE 23rd International Conference on Intelligent Transportation Systems, pp. 1-7, 2020. [[Link]](https://ieeexplore.ieee.org/abstract/document/9294663)
