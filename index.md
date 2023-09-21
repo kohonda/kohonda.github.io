@@ -47,7 +47,7 @@
 
 ### Preprint
 
-- K. Honda, N. Akai, K. Suzuki, M. Aoki, H. Hosogaya, H. Okuda, and T. Suzuki, Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles, 2023. [[Link]](https://arxiv.org/abs/2309.11040)
+- K. Honda, N. Akai, K. Suzuki, M. Aoki, H. Hosogaya, H. Okuda, and T. Suzuki, Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles, 2023. [[Link]](https://arxiv.org/abs/2309.11040) [[Code]](https://github.com/kohonda/proj-svg_mppi)
 - K. Honda, R. Yonetani, M. Nishimura, and T. Kozuno, When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning, 2023. [[Link]](https://arxiv.org/abs/2304.12046)
 
 ### International Journal
