@@ -41,8 +41,8 @@
 - Mar. 2019: Nagoya Kogyoukai Award (Graduated B.S. with second honors)
 
 ## Activities
-- Jun. 2023: 4th and 3rd place in the F1tenth automous vehicle competition at IEEE ICRA 2023 and IV 2023. [[link](https://icra2023-race.f1tenth.org/results.html)] [[slide](https://drive.google.com/file/d/1Awxau9PNYJfa_KPSwExoo6JETxTiqgsM/view?usp=sharing)]
-- Oct. 2023: Oral and Poster presentation as a late breaking result at IROS 2023 about _Generating Diverse Driving Behaviors with Model Predictive Control_ [[poster](https://drive.google.com/file/d/1mT0nLxbWHtEUdEJvLrJ9caFBFlliUUVR/view?usp=sharing)].
+- Jun. 2023: 4th and 3rd place in the F1tenth automous vehicle competition at IEEE **ICRA 2023** and **IV 2023**. [[link](https://icra2023-race.f1tenth.org/results.html)] [[slide](https://drive.google.com/file/d/1Awxau9PNYJfa_KPSwExoo6JETxTiqgsM/view?usp=sharing)]
+- Oct. 2023: Oral and Poster presentation as a late breaking result at **IROS 2023** about _Generating Diverse Driving Behaviors with Model Predictive Control_ [[poster](https://drive.google.com/file/d/1mT0nLxbWHtEUdEJvLrJ9caFBFlliUUVR/view?usp=sharing)].
 
 ## Publications
 
