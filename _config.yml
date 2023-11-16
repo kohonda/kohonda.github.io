@@ -1,9 +1,0 @@
-title: Kohei Honda
-remote_theme: pages-themes/minimal@v0.2.0
-logo: /assets/img/kohei-honda.jpg
-plugins:
-  - jekyll-remote-theme
-google_analytics:
-show_downloads: false
-markdown: GFM
-highlighter: rouge
