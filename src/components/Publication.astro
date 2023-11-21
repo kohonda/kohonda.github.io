@@ -1,0 +1,62 @@
+---
+import { Icon } from 'astro-iconify';
+
+export interface Props {
+    title: string;
+    author: string[];
+    booktitle: string;
+    volume: string;
+    number: string;
+    pages: string;
+    year: string;
+    pdf: string;
+    doi: string;
+    movie: string;
+    code: string;
+    slide: string;
+    poster: string;
+}
+
+const { 
+    title, 
+    author, 
+    booktitle,
+    volume, 
+    number, 
+    pages, 
+    year,
+    pdf,
+    doi,
+    movie,
+    code,
+    slide, 
+    poster
+} = Astro.props;
+---
+
+
+<div class="pub">
+    <h3 class="pub-title text-xl font-bold">{title}</h3>
+    <h4 class="pub-author text-1xl">
+        {author.map((elem, i) => 
+            <span key={i}>{elem === "Kohei Honda" || elem === "本田 康平" ? <u>{elem}</u> : elem}
+                {i < author.length - 1 ? ', ' : ''}
+            </span>
+        )}
+    </h4>
+    <h4 class="pub-info text-1xl">
+        {booktitle ? <span class="pub-booktitle">{booktitle}{", "}</span> : ""}
+        {volume ? <span class="pub-volume">{"Vol. "}{volume}{", "}</span> : ""}
+        {number ? <span class="pub-number">{"No. "}{number}{", "}</span> : ""}
+        {pages ? <span class="pub-pages">{"pp. "}{pages}{", "}</span> : ""}
+        {year ? <span class="pub-year">{year}</span> : ""}
+    </h4>
+    <h4 class="pub-links text-1xl">
+        {pdf ? <a href={pdf} target="_blank" rel="noopener noreferrer"><Icon name="uiw:file-pdf" class="inline-block w-6 h-6"/></a> : ""}
+        {doi ? <a href={doi} target="_blank" rel="noopener noreferrer"><Icon name="simple-icons:doi" class="inline-block w-6 h-6"/></a> : ""}
+        {movie ? <a href={movie} target="_blank" rel="noopener noreferrer"><Icon name="ri:movie-fill" class="inline-block w-6 h-6"/></a> : ""}
+        {code ? <a href={code} target="_blank" rel="noopener noreferrer"><Icon name="mdi:github" class="inline-block w-6 h-6"/></a> : ""}
+        {slide ? <a href={slide} target="_blank" rel="noopener noreferrer"><Icon name="teenyicons:ppt-solid" class="inline-block w-6 h-6"/></a> : ""}
+        {poster ? <a href={poster} target="_blank" rel="noopener noreferrer"><Icon name="ri:presentation-fill" class="inline-block w-6 h-6"/></a> : ""}
+    </h4>
+</div>

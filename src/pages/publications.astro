@@ -1,38 +1,184 @@
 ---
 import { Icon } from 'astro-iconify';
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
+import Publication from '../components/Publication.astro';
 ---
 
-<BaseLayout title="Publication">
+<BaseLayout title="Publications">
   <div>
     <div class="text-3xl w-full font-bold mb-5">
-      <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" />
-      Journal Papers
+      <!-- <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" /> -->
+      Preprint
     </div>
   </div>
 
-  <!-- なんかこれ関数化して書きたい (listを受け取って勝手に書いてくれるように)-->
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features
-    </li>
-    <li>
-      <a href="https://certiprof.com/pages/scrum-foundation-professional-certificate-sfpc-en-sp" target="_blank"> Scrum Foundation Professional Certificate (SFPC)</a>
-    </li>
-  </ul>
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles"},
+      author={["Kohei Honda", "Naoki Akai", "Kosuke Suzuki", "Mizuho Aoki", "Hirotaka Hosogaya", "Hiroyuki Okuda", "Tatsuya Suzuki"]},
+      booktitle={"arXiv preprint arXiv:2309.11040"},
+      year={"2023"}
+      pdf={"https://arxiv.org/abs/2309.11040"}
+      code={"https://github.com/kohonda/proj-svg_mppi"}
+      movie={"https://www.youtube.com/watch?v=ML_aOYQIDL0"}
+    />
+    <Publication
+      title={"When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning"},
+      author={["Kohei Honda", "Ryo Yonetani", "Mai Nishimura", "Tadashi Kozuno"]},
+      pdf={"https://arxiv.org/abs/2304.12046"},
+      year={"2023"}, 
+      booktitle={"arXiv preprint arXiv:2304.12046"},
+      movie={"https://www.youtube.com/watch?v=W8nBFKDxsb0"}
+    />
+  </div>
 
   <div>
     <div class="text-3xl w-full font-bold mb-5">
-      <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" />
-      Conference Papers
+      <!-- <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" /> -->
+      International Journal
+    </div>
+  </div>
+  
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features"},
+      author={["Kohei Honda", "Kenji Koide", "Masashi Yokozuka", "Shuji Oishi", "Atsuhiko Banno"]},
+      booktitle={"IEEE Robotics and Automation Letters / ICRA2023"},
+      volume={"7"},
+      number={"4"},
+      pages={"12459--12466"},
+      year={"2022"}, 
+      pdf={"https://arxiv.org/abs/2210.16510"},
+      doi={"https://ieeexplore.ieee.org/document/9935115"},
+      movie={"https://youtu.be/6ksAjTQ3fCY"}
+    />
+    <Publication
+      title={"Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving"},
+      author={["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito"]},
+      booktitle={"Asian Journal of Control"},
+      volume={"25"},
+      number={"3"},
+      pages={"1805--1822"},
+      year={"2023"}
+      pdf={"https://onlinelibrary.wiley.com/share/RSRHYMZIRF9FFHFWKNBZ?target=10.1002/asjc.2892"}
+      doi={"https://onlinelibrary.wiley.com/doi/full/10.1002/asjc.2892"}
+    />
+
+   
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">
+      International Conference
+    </div>
+  </div>
+
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"Bayesian Network-based Probabilistic Constraints for Safe Autonomous Driving in Occlusion Environments"},
+      author={["Naoya Yamada", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki", "Yorie Nakahira"]},
+      booktitle={"IEEE International Conference on Intelligent Transportation Systems (ITSC)"},
+      year={"2023 (In print)"}
+    />
+    <Publication
+      title={"MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control"},
+      author={["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito"]}
+      booktitle={"IEEE Intelligent Vehicles Symposium (IV)"},
+      pages={"1--8"},
+      year={"2023"}, 
+      pdf={"https://arxiv.org/pdf/2210.16512"},
+      doi={"https://ieeexplore.ieee.org/abstract/document/10186711"},
+      movie={"https://youtu.be/15J2p26OoLI"}
+    />
+    <Publication
+      title={"Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control"},
+      author={["Ching Lin Kuan", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"]}
+      booktitle={"IEEE Intelligent Vehicles Symposium (IV)"},
+      pages={"1--8"},
+      year={"2023"}, 
+      doi={"https://ieeexplore.ieee.org/abstract/document/10186692"},
+    />
+    <Publication
+      title={"An Occlusion-and Interaction-aware Safe Control Strategy for Autonomous Vehicles"},
+      author={["Siddharth Gangadhar", "Zhuoyuan Wang", "Kofi Poku", "Naoya Yamada", "Kohei Honda", "Yorie Nakahira" , "Hioryuki Okuda", "Tatsuya Suzuki"]}
+      booktitle={"IFAC World Congress"},
+      year={"2023"}, 
+      pdf={"https://ppms.cit.cmu.edu/media/project_files/P6_IFAC23_AV_occlusion.pdf"}
+    />
+    <Publication
+      title={"Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure"},
+      author={["Mizuho Aoki", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito", "Daisuke Nagasaka"]}
+      booktitle={"IEEE International Conference on Intelligent Transportation Systems (ITSC)"},
+      pages={"2863--2868"}
+      year={"2022"}, 
+      doi={"https://ieeexplore.ieee.org/abstract/document/9922126"}
+      pdf={"https://mizuhoaoki.github.io/media/papers/ITSC2022_paper_mizuhoaoki.pdf"}
+    />
+    <Publication
+      title={"Comparative Study of Prediction Models for Model Predictive Path-Tracking Control in Wide Driving Speed Range"},
+      author={["Mizuho Aoki", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"]}
+      booktitle={"IEEE Intelligent Vehicles Symposium (IV)"},
+      pages={"1261--1267"}
+      year={"2021"}, 
+      doi={"https://ieeexplore.ieee.org/abstract/document/9575868"}
+      pdf={"https://mizuhoaoki.github.io/media/papers/IV2021_paper_mizuhoaoki.pdf"}
+    />
+    <Publication
+      title={"Multi-task Model Predictive Control based on Continuation with Intermediate Mode"},
+      author={["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"]}
+      booktitle={"IEEE International Conference on Intelligent Transportation Systems (ITSC)"},
+      pages={"1--7"}
+      year={"2020"}, 
+      doi={"https://ieeexplore.ieee.org/abstract/document/9294663"}
+    />
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">
+      Japanese Journal
+    </div>
+  </div>
+
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"モデル予測型経路追従制御における車両運動予測モデルの比較検証"},
+      author={["青木 瑞穂", "本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"自動車技術会論文集"},
+      volume={"53"},
+      number={"133"},
+      pages={"1--6"}
+      year={"2022"}
+    />
+    <Publication
+      title={"非線形モデル予測制御を用いたレーンチェンジにおける行動決定・経路計画・制御の同時実行"},
+      author={["本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"自動車技術会論文集"},
+      volume={"52"},
+      number={"1"},
+      pages={"100--105"}
+      year={"2021"}
+    />
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">
+      Japanese Conference
     </div>
   </div>
 
   <div>
     <div class="text-3xl w-full font-bold mb-5">
-      <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" />
-      Japanese Papers
+      Others
     </div>
   </div>
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"Generating Diverse Driving Behaviors with Model Predictive Control"},
+      author={["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito"]}
+      booktitle={"Oral and Poster presentation as a late breaking result at IROS"},
+      year={"2023"}
+      poster={"https://drive.google.com/file/d/1mT0nLxbWHtEUdEJvLrJ9caFBFlliUUVR/view"}
+    />
+  </div>
+
 </BaseLayout>
