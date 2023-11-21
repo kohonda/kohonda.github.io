@@ -6,8 +6,7 @@ import Publication from '../components/Publication.astro';
 
 <BaseLayout title="Publications">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
-      <!-- <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" /> -->
+    <div class="text-2xl w-full font-bold mb-5">
       Preprint
     </div>
   </div>
@@ -33,7 +32,7 @@ import Publication from '../components/Publication.astro';
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
+    <div class="text-2xl w-full font-bold mb-5">
       <!-- <Icon name="ooui:journal-ltr", class="inline-block w-6 h-6 mr-2 text-gray-700" /> -->
       International Journal
     </div>
@@ -68,12 +67,18 @@ import Publication from '../components/Publication.astro';
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
+    <div class="text-2xl w-full font-bold mb-5">
       International Conference
     </div>
   </div>
 
   <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={" Actual-Vehicle Verification of Automatic Parking in Narrow Spaces Considering Precise Collision Avoidance Constraints for Rectangular Objects"},
+      author={["Koki Hoshino", "Kohei Honda", "Mizuho Aoki", "Hiroyuki Okuda", "Tatsuya Suzuki"]},
+      booktitle={"SICE Annual Conference"},
+      year={"2023 (In print)"}
+    />
     <Publication
       title={"Bayesian Network-based Probabilistic Constraints for Safe Autonomous Driving in Occlusion Environments"},
       author={["Naoya Yamada", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki", "Yorie Nakahira"]},
@@ -130,11 +135,12 @@ import Publication from '../components/Publication.astro';
       pages={"1--7"}
       year={"2020"}, 
       doi={"https://ieeexplore.ieee.org/abstract/document/9294663"}
+      award={"IEEE Nagoya Section Excellent Student Award"}
     />
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
+    <div class="text-2xl w-full font-bold mb-5">
       Japanese Journal
     </div>
   </div>
@@ -161,13 +167,67 @@ import Publication from '../components/Publication.astro';
   </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
+    <div class="text-2xl w-full font-bold mb-5">
       Japanese Conference
     </div>
   </div>
+  <div class="list-disc w-full mx-6 mb-10 grid gap-2">
+    <Publication
+      title={"形状ベース衝突回避制約を用いたモデル予測型自動駐車手法の実車検証"},
+      author={["星野 航輝","本田 康平", "青木 瑞穂", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"第66回自動制御連合講演会"},
+      year={"2023"}
+    />
+    <Publication
+      title={"矩形形状を考慮した衝突回避による狭駐車場への自動駐車の実車検証"},
+      author={["星野 航輝","本田 康平", "青木 瑞穂", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"ロボティクス・メカトロニクス講演会"},
+      year={"2023"}
+    />
+    <Publication
+      title={"モデル予測制御器のオンライン自動生成による多様な運転タスクの実現"}
+      author={["本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"第10回計測自動制御学会 制御部門マルチシンポジウム (MSCS)"}
+      year={"2023"}
+      award={"制御部門マルチシンポジウム賞 (基礎分野)・制御部門奨励賞 (技術分野)"}
+    />
+    <Publication
+      title={"局所幾何特徴量の学習による高精度 LiDAR オドメトリ推定"},
+      author={["本田 康平", "小出 健司", "横塚 将志", "大石 修士", "阪野 貴彦"]}
+      booktitle={"第28回ロボティクスシンポジア"},
+      year={"2023"}
+    />
+    <Publication
+      title={"合流車両に配慮した本線車両のモデル予測型車速制御"},
+      author={["寺野 玲央", "本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"自動車技術会学術講演会 春季大会"},
+      year={"2022"}
+    />
+    <Publication
+      title={"柔軟なタスク実行を実現するモデル予測制御の切り替え手法"},
+      author={["奥田 裕之", "本田 康平",  "鈴木 達也"]}
+      booktitle={"第22回計測自動制御学会 システムインテグレーション部門講演会"},
+      volume={"3"},
+      number={"B1-04"}
+      pages={"2507--2510"}
+      award={"SICE SI講演会優秀講演賞"}
+    />
+    <Publication
+      title={"非線形モデル予測制御を用いたレーンチェンジにおける行動 決定・経路計画・制御の同時実行"},
+      author={["本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"自動車技術会学術講演会 春季大会"},
+      year={"2020"}
+    />
+    <Publication
+      title={"滑らかなタスク切り替えのためのモデル予測制御の切り替え手法の提案"},
+      author={["本田 康平", "奥田 裕之", "鈴木 達也"]}
+      booktitle={"ロボティクス・メカトロニクス講演会"},
+      year={"2020"}
+    />
+  </div>
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5">
+    <div class="text-2xl w-full font-bold mb-5">
       Others
     </div>
   </div>

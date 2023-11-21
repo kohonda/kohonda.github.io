@@ -15,6 +15,7 @@ export interface Props {
     code: string;
     slide: string;
     poster: string;
+    award: string;
 }
 
 const { 
@@ -30,13 +31,14 @@ const {
     movie,
     code,
     slide, 
-    poster
+    poster,
+    award
 } = Astro.props;
 ---
 
 
 <div class="pub">
-    <h3 class="pub-title text-xl font-bold">{title}</h3>
+    <h3 class="pub-title text-lg font-bold">{title}</h3>
     <h4 class="pub-author text-1xl">
         {author.map((elem, i) => 
             <span key={i}>{elem === "Kohei Honda" || elem === "本田 康平" ? <u>{elem}</u> : elem}
@@ -51,6 +53,7 @@ const {
         {pages ? <span class="pub-pages">{"pp. "}{pages}{", "}</span> : ""}
         {year ? <span class="pub-year">{year}</span> : ""}
     </h4>
+    {award ? <p class="pub-award text-1xl font-bold"><Icon name="solar:medal-ribbons-star-linear" class="inline-block w-6 h-6"/>{award}</p> : ""}
     <h4 class="pub-links text-1xl">
         {pdf ? <a href={pdf} target="_blank" rel="noopener noreferrer"><Icon name="uiw:file-pdf" class="inline-block w-6 h-6"/></a> : ""}
         {doi ? <a href={doi} target="_blank" rel="noopener noreferrer"><Icon name="simple-icons:doi" class="inline-block w-6 h-6"/></a> : ""}
