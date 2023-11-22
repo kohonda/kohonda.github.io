@@ -47,10 +47,8 @@ export type PublicationSchema = z.infer<typeof publicationSchema>;
 
 const blogCollection = defineCollection({ schema: blogSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
-const publicationCollection = defineCollection({ schema: publicationSchema });
 
 export const collections = {
     'blog': blogCollection,
-    'store': storeCollection,
-    'publication': publicationCollection,
+    'store': storeCollection
 }
