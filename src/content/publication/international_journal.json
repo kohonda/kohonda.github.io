@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features",
+    "author": [
+      "Kohei Honda",
+      "Kenji Koide",
+      "Masashi Yokozuka",
+      "Shuji Oishi",
+      "Atsuhiko Banno"
+    ],
+    "booktitle": "IEEE Robotics and Automation Letters / ICRA2023",
+    "volume": "7",
+    "number": "4",
+    "pages": "12459--12466",
+    "year": "2022",
+    "pdf": "https://arxiv.org/abs/2210.16510",
+    "doi": "https://ieeexplore.ieee.org/document/9935115",
+    "movie": "https://youtu.be/6ksAjTQ3fCY",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "LiDAR odometry estimation framework that seamlessly handles local geometric shapes by incorporating neural networks into classical algorithms"
+  },
+  {
+    "title": "Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving",
+    "author": [
+      "Kohei Honda",
+      "Hioryuki Okuda",
+      "Tatsuya Suzuki",
+      "Akira Ito"
+    ],
+    "booktitle": "Asian Journal of Control",
+    "volume": "25",
+    "number": "3",
+    "pages": "1805--1822",
+    "year": "2023",
+    "pdf": "https://onlinelibrary.wiley.com/share/RSRHYMZIRF9FFHFWKNBZ?target=10.1002/asjc.2892",
+    "doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/asjc.2892",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "Smooth switching method of nonlinear MPCs without infeasibility"
+  }
+]

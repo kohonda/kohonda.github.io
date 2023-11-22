@@ -25,15 +25,15 @@ const {
 ---
 
 <div class="pub">
-    <h3 class="pub-title text-lg font-bold">{title}</h3>
-    <h4 class="pub-author text-1xl">
+    <h3 class="pub-title w-full text-lg font-bold">{title}</h3>
+    <h4 class="pub-author w-full text-1xl gap-2 font-light">
         {author.map((elem, i) => 
             <span key={i}>{elem === "Kohei Honda" || elem === "本田 康平" ? <u>{elem}</u> : elem}
                 {i < author.length - 1 ? ', ' : ''}
             </span>
         )}
     </h4>
-    <h4 class="pub-info text-1xl">
+    <h4 class="pub-info text-1xl font-light">
         {booktitle ? <span class="pub-booktitle">{booktitle}{", "}</span> : ""}
         {volume ? <span class="pub-volume">{"Vol. "}{volume}{", "}</span> : ""}
         {number ? <span class="pub-number">{"No. "}{number}{", "}</span> : ""}
