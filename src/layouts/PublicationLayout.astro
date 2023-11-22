@@ -1,24 +1,8 @@
 ---
 import { Icon } from 'astro-iconify';
+import { PublicationSchema } from '../content/config';
 
-export interface Props {
-    title: string;
-    author: string[];
-    booktitle: string;
-    volume: string;
-    number: string;
-    pages: string;
-    year: string;
-    pdf: string;
-    doi: string;
-    movie: string;
-    website: string;
-    code: string;
-    slide: string;
-    poster: string;
-    award: string;
-    desc: string;
-}
+export interface Props extends PublicationSchema {}
 
 const { 
     title, 

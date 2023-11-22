@@ -22,13 +22,35 @@ const storeSchema = z.object({
     heroImage: z.string().optional(),
 });
 
+const publicationSchema = z.object({
+    title: z.string(),
+    author: z.array(z.string()),
+    booktitle: z.string(),
+    volume: z.string().optional(),
+    number: z.string().optional(),
+    pages: z.string().optional(),
+    year: z.string().optional(),
+    pdf: z.string().optional(),
+    doi: z.string().optional(),
+    movie: z.string().optional(),
+    website: z.string().optional(),
+    code: z.string().optional(),
+    slide: z.string().optional(),
+    poster: z.string().optional(),
+    award: z.string().optional(),
+    desc: z.string().optional(),
+});
+
 export type BlogSchema = z.infer<typeof blogSchema>;
 export type StoreSchema = z.infer<typeof storeSchema>;
+export type PublicationSchema = z.infer<typeof publicationSchema>;
 
 const blogCollection = defineCollection({ schema: blogSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
+const publicationCollection = defineCollection({ schema: publicationSchema });
 
 export const collections = {
     'blog': blogCollection,
-    'store': storeCollection
+    'store': storeCollection,
+    'publication': publicationCollection,
 }

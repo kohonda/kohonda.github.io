@@ -1,10 +1,39 @@
 ---
-import { Icon } from 'astro-iconify';
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Publication from '../components/Publication.astro';
+import PublicationLayout from '../layouts/PublicationLayout.astro';
+
+import preprint_json from '../content/publication/preprint.json';
 ---
 
 <BaseLayout>
+  <div>
+    <div class="text-2xl w-full font-bold mb-5">
+      Preprint
+    </div>
+  </div>
+
+  <ul>
+    {
+      preprint_json.map((publication) => (
+        <>
+          <PublicationLayout
+            title={publication.title}
+            author={publication.author}
+            booktitle={publication.booktitle}
+            year={publication.year}
+            pdf={publication.pdf}
+            code={publication.code}
+            movie={publication.movie}
+            // ここから
+          />
+          <div class="divider my-0" />
+        </>
+      ))
+    }
+  </ul>
+
+
   <div>
     <div class="text-2xl w-full font-bold mb-5">
       Preprint

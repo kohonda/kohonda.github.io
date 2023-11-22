@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles",
+    "author": [
+      "Kohei Honda",
+      "Naoki Akai",
+      "Kosuke Suzuki",
+      "Mizuho Aoki",
+      "Hirotaka Hosogaya",
+      "Hiroyuki Okuda",
+      "Tatsuya Suzuki"
+    ],
+    "booktitle": "arXiv preprint arXiv:2309.11040",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2023",
+    "pdf": "https://arxiv.org/abs/2309.11040",
+    "doi": "",
+    "movie": "https://www.youtube.com/watch?v=ML_aOYQIDL0",
+    "website": "",
+    "code": "https://github.com/kohonda/proj-svg_mppi",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "This paper proposes a novel approach to Model Predictive Path Integral Control using Stein Variational Gradient Descent and provides experimental results with fast maneuvering vehicles."
+  },
+  {
+    "title": "When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning",
+    "author": [
+      "Kohei Honda",
+      "Ryo Yonetani",
+      "Mai Nishimura",
+      "Tadashi Kozuno"
+    ],
+    "booktitle": "arXiv preprint arXiv:2304.12046",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2023",
+    "pdf": "https://arxiv.org/abs/2304.12046",
+    "doi": "",
+    "movie": "https://www.youtube.com/watch?v=W8nBFKDxsb0",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "This paper presents an adaptive replanning strategy for autonomous navigation based on Deep Reinforcement Learning and discusses the proposed approach's effectiveness."
+  }
+]
