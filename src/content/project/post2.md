@@ -1,12 +1,12 @@
 ---
-title: "Integration of Model-based and Learning-based Approaches"
+title: "Integration of Model-based and Learning-based Methods for SLAM"
 description: "IEEE RA-L, 2022"
-pubDate: "2022"
+pubDate: "Oct. 2022"
 heroImage: "/project/generalized_loam.png"
 ---
 
-## Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features
-This paper presents a LiDAR odometry estimation framework called Generalized LOAM. Our proposed method is generalized in that it can seamlessly fuse various local geometric shapes around points to improve the position estimation accuracy compared to the conventional LiDAR odometry and mapping (LOAM) method. To utilize continuous geometric features for LiDAR odometry estimation, we incorporate tiny neural networks into a generalized iterative closest point (GICP) algorithm. These neural networks improve the data association metric and the matching cost function using local geometric features. Experiments with the KITTI benchmark demonstrate that our proposed method reduces relative trajectory errors compared to the GICP and LOAM methods.
+### Generalized LOAM: LiDAR Odometry Estimation with Trainable Local Geometric Features (IEEE RA-L, 2022)
+This study presents a LiDAR odometry estimation framework called Generalized LOAM. Our proposed method is generalized in that it can seamlessly fuse various local geometric shapes around points to improve the position estimation accuracy compared to the conventional LiDAR odometry and mapping (LOAM) method. To utilize continuous geometric features for LiDAR odometry estimation, we incorporate tiny neural networks into a generalized iterative closest point (GICP) algorithm. These neural networks improve the data association metric and the matching cost function using local geometric features. Experiments with the KITTI benchmark demonstrate that our proposed method reduces relative trajectory errors compared to the GICP and LOAM methods.
 
 This project was conducted as an research internship at [Smart Mobility Research Team](https://unit.aist.go.jp/digiarc/smrt/), National Institute of Advanced Industrial Science and Technology (AIST).
 
