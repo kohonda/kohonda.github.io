@@ -1,6 +1,6 @@
 ---
 title: "Generation of Diverse Autonomous Driving Behaviors Using Model Predictive Control"
-description: "Ph.D. Dissertation, IEEE IV / ITSC / IROS Rate breaking, Asian Journal of Control, 2020-2023"
+description: "Ph.D. Dissertation, IEEE IV / ITSC / IROS late breaking, Asian Journal of Control, 2020-2023"
 pubDate: "june 2023"
 heroImage: "/project/thum_mpc_builder.png"
 ---
