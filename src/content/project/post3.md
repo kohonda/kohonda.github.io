@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Mobile Robot Navigation with Deep Reinforcement Learning"
-description: "Preprint, 2023"
+description: "IEEE ICRA, 2024"
 pubDate: "Apr. 2023"
 heroImage: "/project/rl_replanner.png"
 ---

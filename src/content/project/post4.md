@@ -1,6 +1,6 @@
 ---
 title: "Stochastic Optimal Motion Planning based on Model Predictive Path Integral"
-description: "Preprint, 2023"
+description: "IEEE ICRA, 2024"
 pubDate: "Sept. 2023"
 heroImage: "/project/thum_svg_mppi.png"
 ---
