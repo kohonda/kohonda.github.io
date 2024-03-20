@@ -1,5 +1,23 @@
 [
     {
+      "title": "マルチホライズン・マルチレートのモデル予測を用いた縦横統合車両制御の性能検証",
+      "author": ["Kuan Ching Lin", "本田 康平", "奥田 裕之", "鈴木 達也"],
+      "booktitle": "第11回計測自動制御学会 制御部門マルチシンポジウム (MSCS)",
+      "volume": "",
+      "number": "",
+      "pages": "",
+      "year": "2024",
+      "pdf": "",
+      "doi": "",
+      "movie": "",
+      "website": "",
+      "code": "",
+      "slide": "",
+      "poster": "",
+      "award": "",
+      "desc": ""
+    },
+    {
       "title": "Stein 変分勾配降下法を用いた 多峰性行動分布に対するモデル予測経路積分制御",
       "author": ["本田 康平", "赤井 直樹", "鈴木 康介", "青木 瑞穂", "細萱 広高", "奥田 裕之", "鈴木 達也"],
       "booktitle": "第29回ロボティクスシンポジア",
@@ -68,7 +86,7 @@
       "code": "",
       "slide": "",
       "poster": "",
-      "award": "制御部門マルチシンポジウム賞 (基礎分野)・制御部門奨励賞 (技術分野)",
+      "award": "制御部門マルチシンポジウム賞 (基礎分野)・制御部門奨励賞 (技術分野)・IEEE Control Systems Society Japan Young Researcher Award・SICE学術奨励賞 研究奨励賞",
       "desc": ""
     },
     {
