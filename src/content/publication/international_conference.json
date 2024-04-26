@@ -1,5 +1,27 @@
 [
   {
+    "title": "BenchNav: Simulation Platform for Benchmarking Off-road Navigation Algorithms with Probabilistic Traversability",
+    "author": [
+      "Masafumi Endo",
+      "Kohei Honda",
+      "Genya Ishigami"
+    ],
+    "booktitle": "ICRA 2024 Workshop on Resilient Off-road Autonomy",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2024 (accepted)",
+    "pdf": "",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "https://github.com/masafumiendo/benchnav",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Spline-Interpolated Model Predictive Path Integral Control with Stein Variational Inference for Reactive Navigation",
     "author": [
       "Takato Miura",
