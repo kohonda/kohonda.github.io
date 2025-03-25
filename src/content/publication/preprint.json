@@ -21,5 +21,28 @@
         "poster": "",
         "award": "",
         "desc": ""
+      },
+      {
+        "title": "Ground and Flight Locomotion for Two-Wheeled Drones via Model Predictive Path Integral Control",
+        "author": [
+          "Gosuke Kojima",
+          "Kohei Honda", 
+          "Satoshi Nakano", 
+          "Manabu Yamada"
+        ],
+        "booktitle": "arXiv",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "year": "2025",
+        "pdf": "https://arxiv.org/abs/2503.16715",
+        "doi": "",
+        "movie": "",
+        "website": "",
+        "code": "",
+        "slide": "",
+        "poster": "",
+        "award": "",
+        "desc": ""
       }
 ]
