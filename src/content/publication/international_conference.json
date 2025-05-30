@@ -1,5 +1,28 @@
 [
   {
+    "title": "DRPA-MPPI: Dynamic Repulsive Potential Augmented MPPI for Reactive Navigation in Unstructured Environments",
+    "author": [
+    "Takahiro Fuke",
+    "Masafumi Endo",
+    "Kohei Honda",
+    "Genya Ishigami"
+    ],
+    "booktitle": "IEEE International Conference on Automation Science and Engineering",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025 (inprint)",
+    "pdf": "https://arxiv.org/abs/2503.20134",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Towards Local Minima-free Robotic Navigation: Model Predictive Path Integral Control via Repulsive Potential Augmentation",
     "author": [
       "Takahiro Fuke",
