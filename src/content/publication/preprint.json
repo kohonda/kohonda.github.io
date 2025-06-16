@@ -46,29 +46,6 @@
     "desc": ""
   },
   {
-    "title": "GSplatVNM: Point-of-View Synthesis for Visual Navigation Models Using Gaussian Splatting",
-    "author": [
-      "Kohei Honda",
-      "Takeshi Ishita", 
-      "Yasuhiro Yoshimura", 
-      "Ryo Yonetani"
-    ],
-    "booktitle": "arXiv",
-    "volume": "",
-    "number": "",
-    "pages": "",
-    "year": "2025",
-    "pdf": "https://arxiv.org/abs/2503.05152",
-    "doi": "",
-    "movie": "",
-    "website": "",
-    "code": "",
-    "slide": "",
-    "poster": "",
-    "award": "",
-    "desc": ""
-  },
-  {
     "title": "Ground and Flight Locomotion for Two-Wheeled Drones via Model Predictive Path Integral Control",
     "author": [
       "Gosuke Kojima",

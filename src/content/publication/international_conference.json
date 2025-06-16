@@ -1,5 +1,28 @@
 [
   {
+    "title": "GSplatVNM: Point-of-View Synthesis for Visual Navigation Models Using Gaussian Splatting",
+    "author": [
+      "Kohei Honda",
+      "Takeshi Ishita", 
+      "Yasuhiro Yoshimura", 
+      "Ryo Yonetani"
+    ],
+    "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025 (accepted)",
+    "pdf": "https://arxiv.org/abs/2503.05152",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "DRPA-MPPI: Dynamic Repulsive Potential Augmented MPPI for Reactive Navigation in Unstructured Environments",
     "author": [
     "Takahiro Fuke",
@@ -7,7 +30,7 @@
     "Kohei Honda",
     "Genya Ishigami"
     ],
-    "booktitle": "IEEE International Conference on Automation Science and Engineering",
+    "booktitle": "IEEE International Conference on Automation Science and Engineering (CASE)",
     "volume": "",
     "number": "",
     "pages": "",
