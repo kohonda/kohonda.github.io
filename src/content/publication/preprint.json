@@ -1,51 +1,5 @@
 [
   {
-    "title": "LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture",
-    "author": [
-    "Kazuki Atsuta",
-    "Kohei Honda",
-    "Hiroyuki Okuda",
-    "Tatsuya Suzuki"
-    ],
-    "booktitle": "arXiv",
-    "volume": "",
-    "number": "",
-    "pages": "",
-    "year": "2025",
-    "pdf": "https://arxiv.org/abs/2505.04980",
-    "doi": "",
-    "movie": "",
-    "website": "",
-    "code": "",
-    "slide": "",
-    "poster": "",
-    "award": "",
-    "desc": ""
-  },
-  {
-    "title": "Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces",
-    "author": [
-    "Haruki Kojima",
-    "Kohei Honda",
-    "Hiroyuki Okuda",
-    "Tatsuya Suzuki"
-    ],
-    "booktitle": "arXiv",
-    "volume": "",
-    "number": "",
-    "pages": "",
-    "year": "2025",
-    "pdf": "https://arxiv.org/abs/2505.04935",
-    "doi": "",
-    "movie": "",
-    "website": "",
-    "code": "",
-    "slide": "",
-    "poster": "",
-    "award": "",
-    "desc": ""
-  },
-  {
     "title": "Ground and Flight Locomotion for Two-Wheeled Drones via Model Predictive Path Integral Control",
     "author": [
       "Gosuke Kojima",

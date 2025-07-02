@@ -1,5 +1,51 @@
 [
   {
+    "title": "LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture",
+    "author": [
+    "Kazuki Atsuta",
+    "Kohei Honda",
+    "Hiroyuki Okuda",
+    "Tatsuya Suzuki"
+    ],
+    "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025 (accepted)",
+    "pdf": "https://arxiv.org/abs/2505.04980",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
+    "title": "Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces",
+    "author": [
+    "Haruki Kojima",
+    "Kohei Honda",
+    "Hiroyuki Okuda",
+    "Tatsuya Suzuki"
+    ],
+    "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025 (accepted)",
+    "pdf": "https://arxiv.org/abs/2505.04935",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "GSplatVNM: Point-of-View Synthesis for Visual Navigation Models Using Gaussian Splatting",
     "author": [
       "Kohei Honda",
