@@ -1,5 +1,28 @@
 [
     {
+      "title": "タスク優先順位による多目的制御問題の分割を利用した全方向移動車両の任意形状障害物回避",
+      "author": [
+        "青木 瑞穂",
+        "本田 康平",
+        "奥田 裕之",
+        "鈴木 達也"
+      ],
+      "booktitle": "計測自動制御学会論文集",
+      "volume": "61",
+      "number": "9",
+      "pages": "409--419",
+      "year": "2025",
+      "pdf": "",
+      "doi": "https://www.jstage.jst.go.jp/article/sicetr/61/9/61_409/_article/-char/ja/",
+      "movie": "",
+      "website": "",
+      "code": "",
+      "slide": "",
+      "poster": "",
+      "award": "",
+      "desc": ""
+    },
+    {
       "title": "モデル予測型経路追従制御における車両運動予測モデルの比較検証",
       "author": [
         "青木 瑞穂",
