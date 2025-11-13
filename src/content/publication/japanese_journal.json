@@ -1,5 +1,25 @@
 [
     {
+      "title": "確率推論に基づくモデル予測制御入門",
+      "author": [
+        "本田 康平"
+      ],
+      "booktitle": "日本ロボット学会誌",
+      "volume": "43",
+      "number": "8",
+      "pages": "735--740",
+      "year": "2025",
+      "pdf": "",
+      "doi": "https://www.jstage.jst.go.jp/article/jrsj/43/8/43_43_735/_article/-char/ja/",
+      "movie": "",
+      "website": "",
+      "code": "",
+      "slide": "",
+      "poster": "",
+      "award": "",
+      "desc": "解説記事"
+    },
+    {
       "title": "タスク優先順位による多目的制御問題の分割を利用した全方向移動車両の任意形状障害物回避",
       "author": [
         "青木 瑞穂",
