@@ -1,5 +1,27 @@
 [
   {
+    "title": "A LiDAR SLAM System for Dense Forest Mapping with Iterated Motion Distortion Correction",
+    "author": [
+      "Takumi Nakaoa",
+      "Kohei Honda",
+      "Naoki Akai"
+    ],
+    "booktitle": "Advanced Robotics",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025 (in print)",
+    "pdf": "",
+    "doi": "https://doi.org/10.1080/01691864.2025.2587838",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features",
     "author": [
       "Kohei Honda",
