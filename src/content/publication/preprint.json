@@ -41,5 +41,25 @@
     "poster": "",
     "award": "",
     "desc": ""
+  },
+  {
+    "title": "VLG-Loc: Vision-Language Global Localization from Labeled Footprint Maps",
+    "author": [
+      "Mizuho Aoki", "Kohei Honda", "Yasuhiro Yoshimura", "Takeshi Ishita", "Ryo Yonetani"
+    ],
+    "booktitle": "arXiv",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2025",
+    "pdf": "https://arxiv.org/abs/2512.12793",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
   }
 ]
