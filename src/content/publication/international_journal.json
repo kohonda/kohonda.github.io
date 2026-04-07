@@ -1,16 +1,30 @@
 [
-    {
-    "title": "A LiDAR SLAM System for Dense Forest Mapping with Iterated Motion Distortion Correction",
-    "author": [
-      "Takumi Nakaoa",
-      "Kohei Honda",
-      "Naoki Akai"
-    ],
-    "booktitle": "Advanced Robotics",
+  {
+    "title": "Model Predictive Control via Probabilistic Inference: A Tutorial and Survey",
+    "author": ["Kohei Honda"],
+    "booktitle": "Annual Reviews in Control",
     "volume": "",
     "number": "",
     "pages": "",
-    "year": "2025 (in print)",
+    "year": "2026 (in print)",
+    "pdf": "https://arxiv.org/abs/2511.08019",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
+    "title": "A LiDAR SLAM System for Dense Forest Mapping with Iterated Motion Distortion Correction",
+    "author": ["Takumi Nakaoa", "Kohei Honda", "Naoki Akai"],
+    "booktitle": "Advanced Robotics",
+    "volume": "40",
+    "number": "1",
+    "pages": "1--9",
+    "year": "2025",
     "pdf": "",
     "doi": "https://doi.org/10.1080/01691864.2025.2587838",
     "movie": "",
@@ -23,13 +37,7 @@
   },
   {
     "title": "Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features",
-    "author": [
-      "Kohei Honda",
-      "Kenji Koide",
-      "Masashi Yokozuka",
-      "Shuji Oishi",
-      "Atsuhiko Banno"
-    ],
+    "author": ["Kohei Honda", "Kenji Koide", "Masashi Yokozuka", "Shuji Oishi", "Atsuhiko Banno"],
     "booktitle": "IEEE Robotics and Automation Letters / ICRA2023",
     "volume": "7",
     "number": "4",
@@ -47,12 +55,7 @@
   },
   {
     "title": "Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving",
-    "author": [
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki",
-      "Akira Ito"
-    ],
+    "author": ["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito"],
     "booktitle": "Asian Journal of Control",
     "volume": "25",
     "number": "3",

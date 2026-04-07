@@ -23,26 +23,6 @@
     "desc": ""
   },
   {
-    "title": "Model Predictive Control via Probabilistic Inference: A Tutorial and Survey",
-    "author": [
-      "Kohei Honda"
-    ],
-    "booktitle": "arXiv",
-    "volume": "",
-    "number": "",
-    "pages": "",
-    "year": "2025",
-    "pdf": "https://arxiv.org/abs/2511.08019",
-    "doi": "",
-    "movie": "",
-    "website": "",
-    "code": "",
-    "slide": "",
-    "poster": "",
-    "award": "",
-    "desc": ""
-  },
-  {
     "title": "VLG-Loc: Vision-Language Global Localization from Labeled Footprint Maps",
     "author": [
       "Mizuho Aoki", "Kohei Honda", "Yasuhiro Yoshimura", "Takeshi Ishita", "Ryo Yonetani"

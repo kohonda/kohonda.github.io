@@ -1,17 +1,12 @@
 [
   {
     "title": "LVLM-MPC Collaboration for Autonomous Driving: A Safety-Aware and Task-Scalable Control Architecture",
-    "author": [
-    "Kazuki Atsuta",
-    "Kohei Honda",
-    "Hiroyuki Okuda",
-    "Tatsuya Suzuki"
-    ],
+    "author": ["Kazuki Atsuta", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
     "volume": "",
     "number": "",
     "pages": "",
-    "year": "2025 (accepted)",
+    "year": "2025",
     "pdf": "https://arxiv.org/abs/2505.04980",
     "doi": "",
     "movie": "",
@@ -24,17 +19,12 @@
   },
   {
     "title": "Real-Time Model Predictive Control of Vehicles with Convex-Polygon-Aware Collision Avoidance in Tight Spaces",
-    "author": [
-    "Haruki Kojima",
-    "Kohei Honda",
-    "Hiroyuki Okuda",
-    "Tatsuya Suzuki"
-    ],
+    "author": ["Haruki Kojima", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
     "volume": "",
     "number": "",
     "pages": "",
-    "year": "2025 (accepted)",
+    "year": "2025",
     "pdf": "https://arxiv.org/abs/2505.04935",
     "doi": "",
     "movie": "",
@@ -47,19 +37,14 @@
   },
   {
     "title": "GSplatVNM: Point-of-View Synthesis for Visual Navigation Models Using Gaussian Splatting",
-    "author": [
-      "Kohei Honda",
-      "Takeshi Ishita", 
-      "Yasuhiro Yoshimura", 
-      "Ryo Yonetani"
-    ],
+    "author": ["Kohei Honda", "Takeshi Ishita", "Yasuhiro Yoshimura", "Ryo Yonetani"],
     "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     "volume": "",
     "number": "",
     "pages": "",
-    "year": "2025 (accepted)",
+    "year": "2025",
     "pdf": "https://arxiv.org/abs/2503.05152",
-    "doi": "",
+    "doi": "https://doi.org/10.1109/IROS60139.2025.11246997",
     "movie": "",
     "website": "",
     "code": "",
@@ -70,12 +55,7 @@
   },
   {
     "title": "DRPA-MPPI: Dynamic Repulsive Potential Augmented MPPI for Reactive Navigation in Unstructured Environments",
-    "author": [
-    "Takahiro Fuke",
-    "Masafumi Endo",
-    "Kohei Honda",
-    "Genya Ishigami"
-    ],
+    "author": ["Takahiro Fuke", "Masafumi Endo", "Kohei Honda", "Genya Ishigami"],
     "booktitle": "IEEE International Conference on Automation Science and Engineering (CASE)",
     "volume": "",
     "number": "",
@@ -93,19 +73,14 @@
   },
   {
     "title": "Towards Local Minima-free Robotic Navigation: Model Predictive Path Integral Control via Repulsive Potential Augmentation",
-    "author": [
-      "Takahiro Fuke",
-      "Masafumi Endo",
-      "Kohei Honda",
-      "Genya Ishigami"
-    ],
+    "author": ["Takahiro Fuke", "Masafumi Endo", "Kohei Honda", "Genya Ishigami"],
     "booktitle": "IEEE/SICE International Symposium on System Integration",
     "volume": "",
     "number": "",
-    "pages": "",
-    "year": "2025 (accepted)",
-    "pdf": "",
-    "doi": "",
+    "pages": "1112--1117",
+    "year": "2025",
+    "pdf": "https://arxiv.org/abs/2410.11379",
+    "doi": "https://ieeexplore.ieee.org/document/10871026",
     "movie": "",
     "website": "",
     "code": "",
@@ -116,12 +91,7 @@
   },
   {
     "title": "Switching Sampling Space of Model Predictive Path-Integral Controller to Balance Efficiency and Safety in 4WIDS Vehicle Navigation",
-    "author": [
-      "Mizuho Aoki",
-      "Kohei Honda",
-      "Hiroyuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Mizuho Aoki", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     "volume": "",
     "number": "",
@@ -139,11 +109,7 @@
   },
   {
     "title": "BenchNav: Simulation Platform for Benchmarking Off-road Navigation Algorithms with Probabilistic Traversability",
-    "author": [
-      "Masafumi Endo",
-      "Kohei Honda",
-      "Genya Ishigami"
-    ],
+    "author": ["Masafumi Endo", "Kohei Honda", "Genya Ishigami"],
     "booktitle": "ICRA 2024 Workshop on Resilient Off-road Autonomy",
     "volume": "",
     "number": "",
@@ -161,12 +127,7 @@
   },
   {
     "title": "Spline-Interpolated Model Predictive Path Integral Control with Stein Variational Inference for Reactive Navigation",
-    "author": [
-      "Takato Miura",
-      "Naoki Akai",
-      "Kohei Honda",
-      "Susumu Hara"
-    ],
+    "author": ["Takato Miura", "Naoki Akai", "Kohei Honda", "Susumu Hara"],
     "booktitle": "IEEE International Conference on Robotics and Automation (ICRA)",
     "volume": "",
     "number": "",
@@ -184,15 +145,7 @@
   },
   {
     "title": "Stein Variational Guided Model Predictive Path Integral Control: Proposal and Experiments with Fast Maneuvering Vehicles",
-    "author": [
-      "Kohei Honda",
-      "Naoki Akai",
-      "Kosuke Suzuki",
-      "Mizuho Aoki",
-      "Hirotaka Hosogaya",
-      "Hiroyuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Kohei Honda", "Naoki Akai", "Kosuke Suzuki", "Mizuho Aoki", "Hirotaka Hosogaya", "Hiroyuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE International Conference on Robotics and Automation (ICRA)",
     "volume": "",
     "number": "",
@@ -210,12 +163,7 @@
   },
   {
     "title": "When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning",
-    "author": [
-      "Kohei Honda",
-      "Ryo Yonetani",
-      "Mai Nishimura",
-      "Tadashi Kozuno"
-    ],
+    "author": ["Kohei Honda", "Ryo Yonetani", "Mai Nishimura", "Tadashi Kozuno"],
     "booktitle": "IEEE International Conference on Robotics and Automation (ICRA)",
     "volume": "",
     "number": "",
@@ -233,13 +181,7 @@
   },
   {
     "title": "Actual-Vehicle Verification of Automatic Parking in Narrow Spaces Considering Precise Collision Avoidance Constraints for Rectangular Objects",
-    "author": [
-      "Koki Hoshino",
-      "Kohei Honda",
-      "Mizuho Aoki",
-      "Hiroyuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Koki Hoshino", "Kohei Honda", "Mizuho Aoki", "Hiroyuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "SICE Annual Conference",
     "volume": "",
     "number": "",
@@ -257,13 +199,7 @@
   },
   {
     "title": "Bayesian Network-based Probabilistic Constraints for Safe Autonomous Driving in Occlusion Environments",
-    "author": [
-      "Naoya Yamada",
-      "Kohei Honda",
-      "Hiroyuki Okuda",
-      "Tatsuya Suzuki",
-      "Yorie Nakahira"
-    ],
+    "author": ["Naoya Yamada", "Kohei Honda", "Hiroyuki Okuda", "Tatsuya Suzuki", "Yorie Nakahira"],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
     "volume": "",
     "number": "",
@@ -281,12 +217,7 @@
   },
   {
     "title": "MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control",
-    "author": [
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki",
-      "Akira Ito"
-    ],
+    "author": ["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito"],
     "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
     "volume": "",
     "number": "",
@@ -304,12 +235,7 @@
   },
   {
     "title": "Multi-Horizon and Multi-Rate Model Predictive Control for Integrated Longitudinal and Lateral Vehicle Control",
-    "author": [
-      "Ching Lin Kuan",
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Ching Lin Kuan", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
     "volume": "",
     "number": "",
@@ -327,16 +253,7 @@
   },
   {
     "title": "An Occlusion-and Interaction-aware Safe Control Strategy for Autonomous Vehicles",
-    "author": [
-      "Siddharth Gangadhar",
-      "Zhuoyuan Wang",
-      "Kofi Poku",
-      "Naoya Yamada",
-      "Kohei Honda",
-      "Yorie Nakahira",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Siddharth Gangadhar", "Zhuoyuan Wang", "Kofi Poku", "Naoya Yamada", "Kohei Honda", "Yorie Nakahira", "Hioryuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IFAC World Congress",
     "volume": "56",
     "number": "2",
@@ -354,14 +271,7 @@
   },
   {
     "title": "Obstacle Avoidance Control Based on Nonlinear MPC for All Wheel Driven In-Wheel EV in Steering Failure",
-    "author": [
-      "Mizuho Aoki",
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki",
-      "Akira Ito",
-      "Daisuke Nagasaka"
-    ],
+    "author": ["Mizuho Aoki", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki", "Akira Ito", "Daisuke Nagasaka"],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
     "volume": "",
     "number": "",
@@ -379,12 +289,7 @@
   },
   {
     "title": "Comparative Study of Prediction Models for Model Predictive Path-Tracking Control in Wide Driving Speed Range",
-    "author": [
-      "Mizuho Aoki",
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Mizuho Aoki", "Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
     "volume": "",
     "number": "",
@@ -402,11 +307,7 @@
   },
   {
     "title": "Multi-task Model Predictive Control based on Continuation with Intermediate Mode",
-    "author": [
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki"
-    ],
+    "author": ["Kohei Honda", "Hioryuki Okuda", "Tatsuya Suzuki"],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
     "volume": "",
     "number": "",
