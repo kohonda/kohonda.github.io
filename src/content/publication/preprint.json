@@ -1,5 +1,26 @@
 [
   {
+    "title": "Reset-Free Reinforcement Learning for Real-World Agile Driving: An Empirical Study",
+    "author": [
+      "Kohei Honda", 
+      "Hirotaka Hosogaya" 
+    ],
+    "booktitle": "arXiv",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2026",
+    "pdf": "https://arxiv.org/abs/2604.07672",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Ground and Flight Locomotion for Two-Wheeled Drones via Model Predictive Path Integral Control",
     "author": [
       "Gosuke Kojima",
