@@ -4,11 +4,9 @@ import type { Publication } from "../types/publication";
 
 export interface Props {
   pub: Publication;
-  /** Show the accent left border used in the Selected Publications section */
-  highlight?: boolean;
 }
 
-const { pub, highlight = false } = Astro.props;
+const { pub } = Astro.props;
 
 // Venue badge: explicit override, else trailing "(ABBR)" in booktitle, else a short booktitle
 const abbrMatch = pub.booktitle?.match(/\(([^)]+)\)\s*$/);
@@ -37,13 +35,7 @@ const links = [
 const isMe = (name: string) => name === "Kohei Honda" || name === "本田 康平";
 ---
 
-<li
-  class:list={[
-    "list-none py-3",
-    highlight && "border-l-2 border-accent pl-4",
-    !highlight && pub.award && "border-l-2 border-award pl-4",
-  ]}
->
+<li class:list={["list-none py-3", pub.award && "border-l-2 border-award pl-4"]}>
   <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
     {
       venueBadge && (

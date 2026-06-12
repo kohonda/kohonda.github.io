@@ -89,8 +89,7 @@
     "slide": "",
     "poster": "",
     "award": "",
-    "desc": "",
-    "selected": true
+    "desc": ""
   },
   {
     "title": "DRPA-MPPI: Dynamic Repulsive Potential Augmented MPPI for Reactive Navigation in Unstructured Environments",
@@ -230,8 +229,7 @@
     "slide": "",
     "poster": "",
     "award": "",
-    "desc": "Improvement to Model Predictive Path Integral Control using Stein Variational Gradient Descent and provides real-world experimental results with fast maneuvering vehicles",
-    "selected": true
+    "desc": "Improvement to Model Predictive Path Integral Control using Stein Variational Gradient Descent and provides real-world experimental results with fast maneuvering vehicles"
   },
   {
     "title": "When to Replan? An Adaptive Replanning Strategy for Autonomous Navigation using Deep Reinforcement Learning",
@@ -254,8 +252,7 @@
     "slide": "",
     "poster": "",
     "award": "",
-    "desc": "Adaptive replanning strategy for autonomous mobile robot navigation based on Deep Reinforcement Learning",
-    "selected": true
+    "desc": "Adaptive replanning strategy for autonomous mobile robot navigation based on Deep Reinforcement Learning"
   },
   {
     "title": "Actual-Vehicle Verification of Automatic Parking in Narrow Spaces Considering Precise Collision Avoidance Constraints for Rectangular Objects",

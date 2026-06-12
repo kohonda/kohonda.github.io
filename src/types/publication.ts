@@ -15,8 +15,6 @@ export interface Publication {
     poster?: string;
     award?: string;
     desc?: string;
-    /** Mark as a selected publication shown at the top of the publications page */
-    selected?: boolean;
     /** Short venue label override for the badge (e.g. "RA-L"); otherwise derived from booktitle */
     venue?: string;
 }
