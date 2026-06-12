@@ -1,3 +1,22 @@
-.time-line-container>div:last-child .education__time>.education__line {
-    display: none;
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: 'Inter Variable', system-ui, 'Hiragino Sans', 'Noto Sans JP',
+    sans-serif;
+  /* Single restrained accent: deep slate-blue */
+  --color-accent: oklch(0.45 0.13 255);
+  --color-accent-hover: oklch(0.38 0.13 255);
+  /* Amber, reserved for award highlights only */
+  --color-award: oklch(0.55 0.12 75);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide the connector line after the last timeline entry */
+.time-line-container > div:last-child .timeline-line {
+  display: none;
 }

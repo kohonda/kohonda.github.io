@@ -1,27 +1,30 @@
 {
-  "name": "Kohei Honda website",
+  "name": "kohei-honda-website",
   "description": "Kohei Honda website",
   "type": "module",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "check": "astro check",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.11.1",
-    "@astrojs/rss": "^1.0.1",
-    "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/tailwind": "^3.0.0",
-    "astro": "^2.0.0",
-    "astro-iconify": "^1.2.0",
-    "daisyui": "^2.27.0",
-    "dayjs": "^1.11.7"
+    "@astrojs/sitemap": "^3.0.0",
+    "@fontsource-variable/inter": "^5.0.0",
+    "@iconify-json/academicons": "^1.0.0",
+    "@iconify-json/tabler": "^1.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "astro": "^5.0.0",
+    "astro-icon": "^1.0.0",
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.7"
+    "@astrojs/check": "^0.9.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "typescript": "^5.0.0"
   }
 }
