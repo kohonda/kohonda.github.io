@@ -1,0 +1,93 @@
+---
+import { Icon } from "astro-icon/components";
+import type { Publication } from "../types/publication";
+
+export interface Props {
+  pub: Publication;
+}
+
+const { pub } = Astro.props;
+
+// Venue badge: explicit override, else trailing "(ABBR)" in booktitle, else a short booktitle
+const abbrMatch = pub.booktitle?.match(/\(([^)]+)\)\s*$/);
+const venueBadge =
+  pub.venue || abbrMatch?.[1] || (pub.booktitle.length <= 12 ? pub.booktitle : undefined);
+
+const venueLine = [
+  pub.booktitle,
+  pub.volume && `Vol. ${pub.volume}`,
+  pub.number && `No. ${pub.number}`,
+  pub.pages && `pp. ${pub.pages}`,
+]
+  .filter(Boolean)
+  .join(", ");
+
+const links = [
+  { href: pub.pdf, label: "PDF", icon: "tabler:file-text" },
+  { href: pub.doi, label: "DOI", icon: "tabler:link" },
+  { href: pub.movie, label: "Video", icon: "tabler:video" },
+  { href: pub.code, label: "Code", icon: "tabler:brand-github" },
+  { href: pub.website, label: "Site", icon: "tabler:world" },
+  { href: pub.slide, label: "Slides", icon: "tabler:presentation" },
+  { href: pub.poster, label: "Poster", icon: "tabler:layout-board" },
+].filter((link) => link.href);
+
+const isMe = (name: string) => name === "Kohei Honda" || name === "本田 康平";
+---
+
+<li class:list={["list-none py-3", pub.award && "border-l-2 border-award pl-4"]}>
+  <div class="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+    {
+      venueBadge && (
+        <span class="rounded bg-zinc-100 px-1.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-zinc-600">
+          {venueBadge}
+        </span>
+      )
+    }
+    {pub.year && <span class="text-xs text-zinc-400">{pub.year}</span>}
+  </div>
+
+  <h3 class="mt-1 font-medium leading-snug text-zinc-900">{pub.title}</h3>
+
+  <p class="mt-0.5 text-sm text-zinc-600">
+    {
+      pub.author.map((name, i) => (
+        <>
+          {isMe(name) ? <span class="font-semibold text-zinc-800">{name}</span> : name}
+          {i < pub.author.length - 1 && ", "}
+        </>
+      ))
+    }
+  </p>
+
+  <p class="mt-0.5 text-sm text-zinc-500">{venueLine}</p>
+
+  {
+    pub.award && (
+      <p class="mt-1 flex items-start gap-1.5 text-sm font-medium text-award">
+        <Icon name="tabler:trophy" class="mt-0.5 h-4 w-4 shrink-0" />
+        {pub.award}
+      </p>
+    )
+  }
+
+  {pub.desc && <p class="mt-1 text-sm text-zinc-500">{pub.desc}</p>}
+
+  {
+    links.length > 0 && (
+      <div class="mt-2 flex flex-wrap gap-1.5">
+        {links.map((link) => (
+          <a
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1 rounded-full border border-zinc-300 px-2.5 py-0.5 text-xs text-zinc-600 transition-colors hover:border-accent hover:text-accent"
+          >
+            <Icon name={link.icon} class="h-3.5 w-3.5" />
+            {link.label}
+          </a>
+        ))}
+      </div>
+    )
+  }
+</li>

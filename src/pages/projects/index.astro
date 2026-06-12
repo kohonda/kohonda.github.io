@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const projects = (await getCollection("project")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title="Projects | Kohei Honda">
+  <h1 class="text-3xl font-semibold tracking-tight text-zinc-900">Projects</h1>
+
+  <div class="mt-8 grid gap-6 sm:grid-cols-2">
+    {
+      projects.map((project) => (
+        <a
+          href={`/projects/${project.id}`}
+          class="group flex flex-col overflow-hidden rounded-lg border border-zinc-200 transition-shadow hover:shadow-md"
+        >
+          {project.data.heroImage && (
+            <div class="aspect-[16/9] overflow-hidden bg-zinc-50">
+              <img
+                src={project.data.heroImage}
+                alt={project.data.title}
+                class="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+                loading="lazy"
+              />
+            </div>
+          )}
+          <div class="flex grow flex-col gap-2 border-t border-zinc-100 p-4">
+            <h2 class="font-medium leading-snug text-zinc-900 group-hover:text-accent">
+              {project.data.title}
+            </h2>
+            <p class="text-sm text-zinc-500">{project.data.description}</p>
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

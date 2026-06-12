@@ -1,321 +1,212 @@
 ---
-import { Icon } from 'astro-iconify';
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
-import TimeLineElement from "../components/cv/TimeLine.astro";
-import { getCollection } from "astro:content";
-
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
-
-const last_posts = posts.slice(0, 3);
+import Hero from "../components/Hero.astro";
+import Section from "../components/Section.astro";
+import TimelineItem from "../components/TimelineItem.astro";
+import ListItem from "../components/ListItem.astro";
+import { news } from "../data/news";
 ---
 
 <BaseLayout>
+  <Hero />
 
-    <div class="pb-12 mt-5">
-      <div class="text-5xl font-bold">Kohei Honda | 本田 康平</div>
-      <!-- <div class="text-3xl py-3 font-bold">Ph.D. student</div> -->
-      <div class="py-2">
-        <text class="text-lg">
-          I am an assistant professor at Nagoya University and a cross-appointed research scientist at CyberAgent AI Lab. My research focuses on detection, planning, and control for intelligent mobile robotics, utilizing advanced techniques such as model predictive control, reinforcement learning, and the integration of model-based and learning-based approaches.
-        </text>
-      </div>
-      <div class="py-2">
-          <text class="text-lg">
-            <Icon name="material-symbols:mail", class="inline-block w-6 h-6" />  
-            honda.kohei.k3[at]f.mail.nagoya-u.ac.jp ([at] -> @)
-          </text> <br />
-          <text class="text-lg">
-            <Icon name="mdi:location", class="inline-block w-6 h-6" /> Nagoya, Japan
-          </text> <br />
-        </div>
-      </div>
-    </div>
+  <Section title="News">
+    <ul class="grid gap-2.5">
+      {
+        news.map((entry) => (
+          <li class="flex gap-4 text-zinc-700">
+            <span class="w-20 shrink-0 text-sm leading-relaxed text-zinc-400">
+              {entry.date}
+            </span>
+            <span class="leading-relaxed" set:html={entry.html} />
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Career</div>
-    </div>
-  
-    <div class="time-line-container w-full mb-10">
-      <TimeLineElement
+  <Section title="Career">
+    <div class="time-line-container">
+      <TimelineItem
         title="Cross-appointed Research Scientist @Activity Understanding Team, CyberAgent AI Lab"
         subtitle="Dec. 2024 - Present, Japan"
-        desc=""
         url="https://research.cyberagent.ai/research/activity-understanding/"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Assistant Professor @Mobility System Group, Dept. Mechanical System Engineering, Nagoya University"
         subtitle="Dec. 2024 - Present, Japan"
-        desc=""
         url="https://www.suzlab.mae.nagoya-u.ac.jp/en/"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Visiting Scholar @Mechanical Systems Control Lab, University of California, Berkeley"
         subtitle="Mar. 2024 - Jul. 2024, USA"
         desc="Research fellowship for the Overseas Challenge Program for Young Researchers (JSPS)"
         url="https://msc.berkeley.edu/"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Research Fellow for Young Scientists (DC2), Japan Society for Promotion of Science"
         subtitle="Apr. 2023 - Mar. 2024, Japan"
         desc="Research fellowship and grant on Automatic Generation of MPCs for Autonomous Driving"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Research Assistant @Nagoya University"
         subtitle="Apr. 2021 - May. 2023, Japan"
         desc="Joint research project with J-QuAD DYNAMICS, Inc."
       />
-      <TimeLineElement
+      <TimelineItem
         title="Research Internship @OMRON SINIC X Corp."
         subtitle="Jul. 2022 - Mar. 2023, Japan"
         desc="Research on an adaptive replanning strategy for autonomous mobile robots using Deep RL"
         url="https://www.omron.com/sinicx/en/"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Research Internship @Smart Mobility Research Team, National Institute of Advanced Industrial Science and Technology"
         subtitle="Jan. 2021 - Mar. 2021, Japan"
         desc="Research on 3D LiDAR odometry estimation with trainable local geometric features"
         url="https://unit.aist.go.jp/digiarc/smrt/"
       />
-      <TimeLineElement
+      <TimelineItem
         title="Part-time Software Engineer @MapIV, Inc."
         subtitle="Sept. 2019 - Apr. 2021, Japan"
         desc="Develop a 3D mapping system and Implement autonomous driving vehicles using Autoware"
         url="https://www.map4.jp/"
       />
     </div>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Education</div>
-    </div>
-  
-    <div class="time-line-container grid gap-4 mb-10">
-      <TimeLineElement
+  <Section title="Education">
+    <div class="time-line-container">
+      <TimelineItem
         title="Ph.D. in Engineering, Nagoya University, Japan"
         subtitle="2021 - 2024, Advisor: Prof. Tatsuya Suzuki, Dept. Mechanical System Engineering"
       />
-      <TimeLineElement
+      <TimelineItem
         title="M.S. in Engineering, Nagoya University, Japan"
         subtitle="2019 - 2021, Advisor: Prof. Tatsuya Suzuki, Dept. Mechanical System Engineering"
       />
-      <TimeLineElement
+      <TimelineItem
         title="B.S. in Engineering (GPA: 3.75/4.0), Nagoya Institute of Technology, Japan"
         subtitle="2014 - 2019, Advisor: Prof. Yoshifumi Morita, Dept. Electrical and electronic engineering"
       />
     </div>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Awards</div>
-    </div>
-
-    <ul class="list-disc w-full mx-6 mb-10 grid gap-2">
-      <li>
+  <Section title="Awards">
+    <ul class="grid gap-2.5">
+      <ListItem pdf="/awards/robosym2024.pdf">
         計測自動制御学会 (SICE) システムインテグレーション部門若手奨励賞, Dec. 2024.
-        <a href="/awards/robosym2024.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="/awards/ROBOMECH2023.pdf">
         ロボティクス・メカトロニクス講演会2023 分野融合研究優秀表彰, May. 2024.
-        <a href="/awards/ROBOMECH2023.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="/awards/2023MSCS/SICE_gakujyutu_shorei.pdf">
         2023年度計測自動制御学会 (SICE) 学術奨励賞 研究奨励賞, Mar. 2024.
-        <a href="/awards/2023MSCS/SICE_gakujyutu_shorei.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="/awards/2023MSCS/IEEE_CSS_YRA.pdf">
         IEEE Control Systems Society Japan Young Researcher Award, Mar. 2024.
-        <a href="/awards/2023MSCS/IEEE_CSS_YRA.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="/awards/2023MSCS/MSCS_multisymposium.pdf">
         第10回計測自動制御学会 マルチシンポジウム 制御部門マルチシンポジウム賞 (基礎分野), Mar. 2024.
-        <a href="/awards/2023MSCS/MSCS_multisymposium.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="/awards/2023MSCS/SICE_bumon_shyorei.pdf">
         第10回計測自動制御学会 マルチシンポジウム 制御部門奨励賞 (技術分野), Mar. 2024.
-        <a href="/awards/2023MSCS/SICE_bumon_shyorei.pdf" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://dec.nagoya-u.ac.jp/career/kouryukai/">
         第12回 企業と博士人材の交流会, 企業が選ぶ優秀な博士人材, 優秀賞 (122名中上位5名), Mar. 2023
-        <a href="https://dec.nagoya-u.ac.jp/career/kouryukai/" target="_blank">
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://ieee-jp.org/section/nagoya/2021/03/20/2021%E5%B9%B4ieee%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%94%AF%E9%83%A8%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E8%B3%9E%E5%8F%97%E8%B3%9E%E8%80%85%E3%81%AE%E3%81%94%E5%A0%B1/">
         IEEE Nagoya Section Excellent Student Award, Mar. 2021.
-        <a href="https://ieee-jp.org/section/nagoya/2021/03/20/2021%E5%B9%B4ieee%E5%90%8D%E5%8F%A4%E5%B1%8B%E6%94%AF%E9%83%A8%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E8%B3%9E%E5%8F%97%E8%B3%9E%E8%80%85%E3%81%AE%E3%81%94%E5%A0%B1/" target="_blank">
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://tongali.net/biz-contest2019/">
         Tongali Business Plan Contest, Director General's Award for Promotion of Academic Research, 2019.
-        <a href="https://tongali.net/biz-contest2019/" target="_blank">
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem>
         Nagoya Kogyoukai Award (Graduated B.S. with second honors), Mar. 2019.
-      </li>
+      </ListItem>
     </ul>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Grants-in-Aid and Scholarship</div>
-    </div>
-
-    <ul class="list-disc w-full mx-6 mb-10 grid gap-2">
-      <li>
-        JSPS 研究活動スタート支援, 2025 - 2027
-      </li>
-      <li>
+  <Section title="Grants-in-Aid and Scholarship">
+    <ul class="grid gap-2.5">
+      <ListItem url="https://www.jst.go.jp/moonshot/en/news/20260515.html">
+        JST Moonshot R&D Goal 3, "General-Purpose Autonomous Humanoids Growing through Multi-layered Instruction and Inheritance" (PM: Kento Kawaharazuka), Principal Investigator, Jul. 2026 - Nov. 2030
+      </ListItem>
+      <ListItem>JSPS 研究活動スタート支援, 2025 - 2027</ListItem>
+      <ListItem url="https://www.t-gex.nagoya-u.ac.jp/en/">
         Tokai Pathways to Global Excellence (T-GEx), Apr. 2025 - Mar. 2030
-        <a href="https://www.t-gex.nagoya-u.ac.jp/en/" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.jst.go.jp/kisoken/act-x/en/project/111F007/111F007_2024.html">
         JST ACT-X, Dec. 2024 - Mar. 2027
-        <a href="https://www.jst.go.jp/kisoken/act-x/en/project/111F007/111F007_2024.html" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.jsps.go.jp/j-abc/abc_list/R5.html#u20240517175918">
         JSPS Overseas Challenge Program for Young Researchers, Apr. 2024 - Jul. 2024
-        <a href="https://www.jsps.go.jp/j-abc/abc_list/R5.html#u20240517175918" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23KJ1067">
         JSPS Research Fellowship for Young Scientists (DC2), Apr. 2023 - Mar. 2025
-        <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-23KJ1067" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.tateisi-f.org/research_r/research_list.html">
         Tateishi Science and Technology Foundation Research Grants (C), Apr. 2021 - Mar. 2024
-        <a href="https://www.tateisi-f.org/research_r/research_list.html" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://dec.nagoya-u.ac.jp/fellowship_information">
         Nagoya University Interdisciplinary Frontier Fellowship, Apr. 2021 - Mar. 2023 (Outstanding Fellow, 2022-2023)
-        <a href="https://dec.nagoya-u.ac.jp/fellowship_information" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.dii.engg.nagoya-u.ac.jp/en/">
         Nagoya University DII Collaborative Graduate Program for Accelerating Innovation in Future Electronics Fellow, Apr. 2020-Aug. 2022
-        <a href="https://www.dii.engg.nagoya-u.ac.jp/en/" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
+      </ListItem>
     </ul>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Patent</div>
-    </div>
-
-    <ul class="list-disc w-full mx-6 mb-10 grid gap-2">
-      <li>
+  <Section title="Patent">
+    <ul class="grid gap-2.5">
+      <ListItem url="https://patents.google.com/patent/US20230100017A1/en">
         Control device for vehicle #US20230100017A1
-        <a href="https://patents.google.com/patent/US20230100017A1/en" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
+      </ListItem>
     </ul>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">Academic Activities</div>
-    </div>
-
-    <ul class="list-disc w-full mx-6 mb-10 grid gap-2">
-      <li>
+  <Section title="Academic Activities">
+    <ul class="grid gap-2.5">
+      <ListItem url="https://www.sice.or.jp/org/chubu/">
         SICE中部支部, 庶務幹事, 2026 - Present
-        <a href="https://www.sice.or.jp/org/chubu/" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.rsj.or.jp/pub/ar/about.html">
         Associate Editor, Advanced Robotics, 2025 - Present
-        <a href="https://www.rsj.or.jp/pub/ar/about.html" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://sites.google.com/view/ieee-itss-nagoya-chapter/english/home">
         IEEE Intelligent Transportation Systems Nagoya Chapter, Secretary, 2025 - Present
-        <a href="https://sites.google.com/view/ieee-itss-nagoya-chapter/english/home" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.jsme.or.jp/conference/rengo68/index.html">
         第68回 自動制御連合講演会, 実行委員, 2025
-        <a href="https://www.jsme.or.jp/conference/rengo68/index.html" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://www.robotics-symposia.org/31st/">
         第31回 ロボティクスシンポジア, プログラム委員, 2025
-        <a href="https://www.robotics-symposia.org/31st/" target="_blank">  
-          <Icon name="gg:external", class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
+      </ListItem>
     </ul>
+  </Section>
 
-    <div class="mb-5">
-      <div class="text-3xl w-full font-bold">MISC</div>
-    </div>
-
-    <ul class="list-disc w-full mx-6 mb-10 grid gap-2">
-      <li>
+  <Section title="MISC">
+    <ul class="grid gap-2.5">
+      <ListItem
+        url="https://icra2023-race.f1tenth.org/results.html"
+        pdf="https://www.suzlab.mae.nagoya-u.ac.jp/wp-content/uploads/2023/08/f1tenth_honda.pdf"
+      >
         4th and 3rd place in the F1tenth autonomous vehicle competition at IEEE ICRA 2023 and IV 2023
-        <a href="https://icra2023-race.f1tenth.org/results.html" target="_blank">  
-          <Icon name="gg:external" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-        <a href="https://www.suzlab.mae.nagoya-u.ac.jp/wp-content/uploads/2023/08/f1tenth_honda.pdf" target="_blank">  
-          <Icon name="uiw:file-pdf" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem pdf="https://www.docswell.com/s/9107484187/5WWWLX-2024-09-09-105128">
         「確率推論としての最適制御」SICE制御理論若手合宿 2024
-        <a href="https://www.docswell.com/s/9107484187/5WWWLX-2024-09-09-105128" target="_blank">  
-          <Icon name="uiw:file-pdf" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://zenn.dev/takuya_fukatsu/articles/36c0d6911d18b7">
         「モデル予測経路積分制御 (MPPI) 入門」
-        <a href="https://zenn.dev/takuya_fukatsu/articles/36c0d6911d18b7" target="_blank">  
-          <Icon name="gg:external" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://zenn.dev/takuya_fukatsu/articles/e2dbbfc6788f4a">
         「FlowMPPI解説」
-        <a href="https://zenn.dev/takuya_fukatsu/articles/e2dbbfc6788f4a" target="_blank">  
-          <Icon name="gg:external" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://zenn.dev/takuya_fukatsu/articles/91c5dbd785cec9">
         「Model-based Diffusion解説」
-        <a href="https://zenn.dev/takuya_fukatsu/articles/91c5dbd785cec9" target="_blank">  
-          <Icon name="gg:external" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
-      <li>
+      </ListItem>
+      <ListItem url="https://f1tenth-japan.org/2024/">
         Co-organizer of the F1tenth Japan competition at Nagoya University in 2024
-        <a href="https://f1tenth-japan.org/2024/" target="_blank">  
-          <Icon name="gg:external" class="inline-block w-6 h-6 text-gray-600"/>
-        </a>
-      </li>
+      </ListItem>
     </ul>
-
+  </Section>
 </BaseLayout>

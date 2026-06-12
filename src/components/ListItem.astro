@@ -1,0 +1,45 @@
+---
+import { Icon } from "astro-icon/components";
+
+export interface Props {
+  /** External link shown as a small icon after the text */
+  url?: string;
+  /** PDF link shown as a small file icon after the text */
+  pdf?: string;
+}
+
+const { url, pdf } = Astro.props;
+---
+
+<li class="flex gap-3 text-zinc-700">
+  <span class="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-zinc-300"></span>
+  <span class="leading-relaxed">
+    <slot />
+    {
+      url && (
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="External link"
+          class="ml-1 inline-block align-text-bottom text-zinc-400 hover:text-accent"
+        >
+          <Icon name="tabler:external-link" class="h-4 w-4" />
+        </a>
+      )
+    }
+    {
+      pdf && (
+        <a
+          href={pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="PDF"
+          class="ml-1 inline-block align-text-bottom text-zinc-400 hover:text-accent"
+        >
+          <Icon name="tabler:file-type-pdf" class="h-4 w-4" />
+        </a>
+      )
+    }
+  </span>
+</li>

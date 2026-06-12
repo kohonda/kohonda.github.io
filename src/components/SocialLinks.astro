@@ -1,0 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+
+const links = [
+  { href: "https://github.com/kohonda", label: "GitHub", icon: "tabler:brand-github" },
+  { href: "https://scholar.google.com/citations?user=XOUqhI4AAAAJ&hl=en", label: "Google Scholar", icon: "academicons:google-scholar" },
+  { href: "https://twitter.com/kohonda_", label: "X (Twitter)", icon: "tabler:brand-x" },
+  { href: "https://www.linkedin.com/in/kohei-honda-a527b8190/", label: "LinkedIn", icon: "tabler:brand-linkedin" },
+];
+---
+
+<div class="flex items-center gap-4">
+  {
+    links.map((link) => (
+      <a
+        href={link.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={link.label}
+        title={link.label}
+        class="text-zinc-500 transition-colors hover:text-accent"
+      >
+        <Icon name={link.icon} class="h-6 w-6" />
+      </a>
+    ))
+  }
+</div>

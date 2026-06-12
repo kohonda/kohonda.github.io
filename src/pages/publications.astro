@@ -1,222 +1,39 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import PublicationLayout from '../layouts/PublicationLayout.astro';
+import Section from "../components/Section.astro";
+import PublicationItem from "../components/PublicationItem.astro";
+import type { Publication } from "../types/publication";
 
-import preprint_json from '../content/publication/preprint.json';
-import international_journal_json from '../content/publication/international_journal.json';
-import international_conference_json from '../content/publication/international_conference.json';
-import japanese_journal_json from '../content/publication/japanese_journal.json';
-import japanese_conference_json from '../content/publication/japanese_conference.json';
-import others_json from '../content/publication/others.json';
+import preprint from "../content/publication/preprint.json";
+import internationalJournal from "../content/publication/international_journal.json";
+import internationalConference from "../content/publication/international_conference.json";
+import japaneseJournal from "../content/publication/japanese_journal.json";
+import japaneseConference from "../content/publication/japanese_conference.json";
+import others from "../content/publication/others.json";
+
+const sections: { label: string; items: Publication[] }[] = [
+  { label: "Preprint", items: preprint },
+  { label: "International Journal", items: internationalJournal },
+  { label: "International Conference", items: internationalConference },
+  { label: "Japanese Journal", items: japaneseJournal },
+  { label: "Japanese Conference", items: japaneseConference },
+  { label: "Others", items: others },
+];
+
 ---
 
-<BaseLayout title="Publications by Kohei Honda">
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      Preprint
-    </div>
-  </div>
+<BaseLayout title="Publications | Kohei Honda">
+  <h1 class="text-3xl font-semibold tracking-tight text-zinc-900">Publications</h1>
 
-  <div class="preprints w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        preprint_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      International Journal
-    </div>
-  </div>
-
-  <div class="international_journal w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        international_journal_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-  
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      International Conference
-    </div>
-  </div>
-
-  <div class="international_conference w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        international_conference_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      Japanese Journal
-    </div>
-  </div>
-
-  <div class="japanese_journal w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        japanese_journal_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      Japanese Conference
-    </div>
-  </div>
-  <div class="japanese_conference w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        japanese_conference_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-
-  <div>
-    <div class="text-2xl w-full font-bold mb-5">
-      Others
-    </div>
-  </div>
-  <div class="others w-full mx-6 mb-10 grid gap-2">
-    <ul>
-      {
-        others_json.map((publication) => (
-          <>
-            <PublicationLayout
-              title={publication.title}
-              author={publication.author}
-              booktitle={publication.booktitle}
-              volume={publication.volume}
-              number={publication.number}
-              pages={publication.pages}
-              year={publication.year}
-              pdf={publication.pdf}
-              doi={publication.doi}
-              movie={publication.movie}
-              website={publication.website}
-              code={publication.code}
-              slide={publication.slide}
-              poster={publication.poster}
-              award={publication.award}
-              desc={publication.desc}
-            />
-          </>
-        ))
-      }
-    </ul>
-  </div>
-
+  {
+    sections.map((section) => (
+      <Section title={section.label}>
+        <ul class="grid gap-3">
+          {section.items.map((pub) => (
+            <PublicationItem pub={pub} />
+          ))}
+        </ul>
+      </Section>
+    ))
+  }
 </BaseLayout>
