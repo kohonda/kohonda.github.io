@@ -4,6 +4,8 @@ https://kohonda.github.io/
 
 ## Installation
 
+Node.js 22.12.0 or later is required.
+
 Run the following command in your terminal
 
 ```bash

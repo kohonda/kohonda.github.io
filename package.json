@@ -4,6 +4,9 @@
   "type": "module",
   "version": "3.0.0",
   "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -18,7 +21,7 @@
     "@iconify-json/academicons": "^1.0.0",
     "@iconify-json/tabler": "^1.0.0",
     "@tailwindcss/vite": "^4.0.0",
-    "astro": "^5.0.0",
+    "astro": "^7.1.3",
     "astro-icon": "^1.0.0",
     "tailwindcss": "^4.0.0"
   },
