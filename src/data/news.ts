@@ -7,7 +7,7 @@ export interface NewsEntry {
 export const news: NewsEntry[] = [
     {
         date: "May 2026",
-        html: 'Selected as a Principal Investigator of the <a href="https://www.jst.go.jp/moonshot/en/news/20260515.html" target="_blank" rel="noopener noreferrer">JST Moonshot R&amp;D Goal 3</a> project "General-Purpose Autonomous Humanoids Growing through Multi-layered Instruction and Inheritance" (PM: Kento Kawaharazuka).',
+        html: 'Selected as a Principal Investigator of the <a href="https://www.jst.go.jp/moonshot/en/news/20260515.html" target="_blank" rel="noopener noreferrer">JST Moonshot R&amp;D Goal 3</a> project "<a href="https://mirai-humanoid.jp/" target="_blank" rel="noopener noreferrer">General-Purpose Autonomous Humanoids Growing through Multi-layered Instruction and Inheritance</a>" (PM: Kento Kawaharazuka).',
     },
     {
         date: "May 2026",
