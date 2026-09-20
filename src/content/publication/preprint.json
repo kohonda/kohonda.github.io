@@ -1,5 +1,28 @@
 [
   {
+    "title": "Orienteering Problem with Uncertain Time-Varying Rewards: Framework and Benchmark for Everyday Service Robotics",
+    "author": [
+      "Masafumi Endo",
+      "Kohei Honda",
+      "Yuu Jinnai",
+      "Ryo Yonetani"
+    ],
+    "booktitle": "arXiv",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2026",
+    "pdf": "https://arxiv.org/abs/2608.18672",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Reset-Free Reinforcement Learning for Real-World Agile Driving: An Empirical Study",
     "author": [
       "Kohei Honda",

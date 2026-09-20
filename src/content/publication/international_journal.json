@@ -1,5 +1,63 @@
 [
   {
+    "title": "From Instruction to Inheritance: Scaling Robot Learning Through Knowledge Circulation",
+    "author": [
+      "Kento Kawaharazuka",
+      "Shunki Itadera",
+      "Kohei Honda",
+      "Takato Horii",
+      "Asako Kanezaki",
+      "Taisuke Kobayashi",
+      "Kenji Koide",
+      "Shuhei Kurita",
+      "Koshi Makihara",
+      "Kazuki Miyazawa",
+      "Masaki Murooka",
+      "Yuki Onishi",
+      "Satoshi Yagi",
+      "Satoshi Yamamori"
+    ],
+    "booktitle": "Advanced Intelligent Systems",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2026 (accepted)",
+    "pdf": "",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "",
+    "venue": "Adv. Intell. Syst."
+  },
+  {
+    "title": "Adaptive Undulatory Locomotion of Snake-like Robots in Dynamic Viscous Environments via Deep Reinforcement Learning",
+    "author": [
+      "Tsuyoshi Kimoto",
+      "Akio Yamano",
+      "Kohei Honda",
+      "Takashi Iwasa"
+    ],
+    "booktitle": "Advanced Robotics",
+    "volume": "",
+    "number": "",
+    "pages": "1--15",
+    "year": "2026",
+    "pdf": "https://arxiv.org/abs/2607.21960",
+    "doi": "https://doi.org/10.1080/01691864.2026.2731664",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "",
+    "venue": "Adv. Robotics"
+  },
+  {
     "title": "Model Predictive Control via Probabilistic Inference: A Tutorial and Survey",
     "author": [
       "Kohei Honda"
@@ -23,7 +81,7 @@
   {
     "title": "A LiDAR SLAM System for Dense Forest Mapping with Iterated Motion Distortion Correction",
     "author": [
-      "Takumi Nakaoa",
+      "Takumi Nakao",
       "Kohei Honda",
       "Naoki Akai"
     ],
@@ -31,7 +89,7 @@
     "volume": "40",
     "number": "1",
     "pages": "1--9",
-    "year": "2025",
+    "year": "2026",
     "pdf": "",
     "doi": "https://doi.org/10.1080/01691864.2025.2587838",
     "movie": "",
@@ -42,6 +100,30 @@
     "award": "",
     "desc": "",
     "venue": "Adv. Robotics"
+  },
+  {
+    "title": "Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving",
+    "author": [
+      "Kohei Honda",
+      "Hiroyuki Okuda",
+      "Tatsuya Suzuki",
+      "Akira Ito"
+    ],
+    "booktitle": "Asian Journal of Control",
+    "volume": "25",
+    "number": "3",
+    "pages": "1805--1822",
+    "year": "2023",
+    "pdf": "https://onlinelibrary.wiley.com/share/RSRHYMZIRF9FFHFWKNBZ?target=10.1002/asjc.2892",
+    "doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/asjc.2892",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "Smooth switching method of nonlinear MPCs without infeasibility",
+    "venue": "AJC"
   },
   {
     "title": "Generalized LOAM: LiDAR Odometry Estimation With Trainable Local Geometric Features",
@@ -67,29 +149,5 @@
     "award": "",
     "desc": "LiDAR odometry estimation framework that seamlessly handles local geometric shapes by incorporating neural networks into classical algorithms",
     "venue": "RA-L"
-  },
-  {
-    "title": "Connection of Nonlinear Model Predictive Controllers for Smooth Task Switching in Autonomous Driving",
-    "author": [
-      "Kohei Honda",
-      "Hioryuki Okuda",
-      "Tatsuya Suzuki",
-      "Akira Ito"
-    ],
-    "booktitle": "Asian Journal of Control",
-    "volume": "25",
-    "number": "3",
-    "pages": "1805--1822",
-    "year": "2023",
-    "pdf": "https://onlinelibrary.wiley.com/share/RSRHYMZIRF9FFHFWKNBZ?target=10.1002/asjc.2892",
-    "doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/asjc.2892",
-    "movie": "",
-    "website": "",
-    "code": "",
-    "slide": "",
-    "poster": "",
-    "award": "",
-    "desc": "Smooth switching method of nonlinear MPCs without infeasibility",
-    "venue": "AJC"
   }
 ]

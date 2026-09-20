@@ -115,6 +115,52 @@
     "desc": ""
   },
   {
+    "title": "Occlusion Risk-Aware Safe Speed Control for Indoor Mobile Robots",
+    "author": [
+      "Shuhei Kito",
+      "Hiroyuki Okuda",
+      "Kohei Honda",
+      "Tatsuya Suzuki"
+    ],
+    "booktitle": "SICE Festival with Annual Conference (SICE FES)",
+    "volume": "",
+    "number": "",
+    "pages": "1--6",
+    "year": "2025",
+    "pdf": "",
+    "doi": "https://doi.org/10.23919/SICEFES67750.2025.11236615",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
+    "title": "Local Planning for an Autonomous Mobile Robot to Reduce Pedestrian Uncertainty",
+    "author": [
+      "Aiki Kada",
+      "Kohei Honda",
+      "Hiroyuki Okuda",
+      "Tatsuya Suzuki"
+    ],
+    "booktitle": "SICE Festival with Annual Conference (SICE FES)",
+    "volume": "",
+    "number": "",
+    "pages": "963--969",
+    "year": "2025",
+    "pdf": "",
+    "doi": "https://doi.org/10.23919/SICEFES67750.2025.11236593",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": ""
+  },
+  {
     "title": "Towards Local Minima-free Robotic Navigation: Model Predictive Path Integral Control via Repulsive Potential Augmentation",
     "author": [
       "Takahiro Fuke",
@@ -306,7 +352,7 @@
     "title": "MPC Builder for Autonomous Drive: Automatic Generation of MPCs for Motion Planning and Control",
     "author": [
       "Kohei Honda",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki",
       "Akira Ito"
     ],
@@ -330,7 +376,7 @@
     "author": [
       "Ching Lin Kuan",
       "Kohei Honda",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki"
     ],
     "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
@@ -357,7 +403,7 @@
       "Naoya Yamada",
       "Kohei Honda",
       "Yorie Nakahira",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki"
     ],
     "booktitle": "IFAC World Congress",
@@ -380,7 +426,7 @@
     "author": [
       "Mizuho Aoki",
       "Kohei Honda",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki",
       "Akira Ito",
       "Daisuke Nagasaka"
@@ -405,7 +451,7 @@
     "author": [
       "Mizuho Aoki",
       "Kohei Honda",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki"
     ],
     "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
@@ -427,7 +473,7 @@
     "title": "Multi-task Model Predictive Control based on Continuation with Intermediate Mode",
     "author": [
       "Kohei Honda",
-      "Hioryuki Okuda",
+      "Hiroyuki Okuda",
       "Tatsuya Suzuki"
     ],
     "booktitle": "IEEE International Conference on Intelligent Transportation Systems (ITSC)",
