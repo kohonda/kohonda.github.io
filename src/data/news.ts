@@ -6,6 +6,18 @@ export interface NewsEntry {
 
 export const news: NewsEntry[] = [
     {
+        date: "Sep. 2026",
+        html: '"From Instruction to Inheritance: Scaling Robot Learning Through Knowledge Circulation" (Kawaharazuka et al.) has been accepted for publication in Advanced Intelligent Systems.',
+    },
+    {
+        date: "Sep. 2026",
+        html: '"<a href="https://doi.org/10.1080/01691864.2026.2731664" target="_blank" rel="noopener noreferrer">Adaptive Undulatory Locomotion of Snake-like Robots in Dynamic Viscous Environments via Deep Reinforcement Learning</a>" has been published in Advanced Robotics.',
+    },
+    {
+        date: "Aug. 2026",
+        html: 'New preprint "<a href="https://arxiv.org/abs/2608.18672" target="_blank" rel="noopener noreferrer">Orienteering Problem with Uncertain Time-Varying Rewards: Framework and Benchmark for Everyday Service Robotics</a>" is now available on arXiv.',
+    },
+    {
         date: "May 2026",
         html: 'Selected as a Principal Investigator of the <a href="https://www.jst.go.jp/moonshot/en/news/20260515.html" target="_blank" rel="noopener noreferrer">JST Moonshot R&amp;D Goal 3</a> project "<a href="https://mirai-humanoid.jp/" target="_blank" rel="noopener noreferrer">General-Purpose Autonomous Humanoids Growing through Multi-layered Instruction and Inheritance</a>" (PM: Kento Kawaharazuka).',
     },
