@@ -11,6 +11,10 @@ export const news: NewsEntry[] = [
     },
     {
         date: "Sep. 2026",
+        html: 'New preprint "<a href="https://arxiv.org/abs/2609.22813" target="_blank" rel="noopener noreferrer">Commonsense-Grounded Path Planning from Abstract Instructions</a>" is now available on arXiv.',
+    },
+    {
+        date: "Sep. 2026",
         html: '"From Instruction to Inheritance: Scaling Robot Learning Through Knowledge Circulation" (Kawaharazuka et al.) has been accepted for publication in Advanced Intelligent Systems.',
     },
     {
