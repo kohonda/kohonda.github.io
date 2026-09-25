@@ -1,5 +1,29 @@
 [
   {
+    "title": "ReVNM: Learning-Based Visual Navigation from a Remote Camera",
+    "author": [
+      "Michikuni Eguchi*",
+      "Kohei Honda*",
+      "Masafumi Endo",
+      "Yasuhiro Yoshimura",
+      "Ryo Yonetani"
+    ],
+    "booktitle": "arXiv",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2026",
+    "pdf": "https://arxiv.org/abs/2609.28976",
+    "doi": "",
+    "movie": "",
+    "website": "",
+    "code": "",
+    "slide": "",
+    "poster": "",
+    "award": "",
+    "desc": "* Equal contribution"
+  },
+  {
     "title": "Orienteering Problem with Uncertain Time-Varying Rewards: Framework and Benchmark for Everyday Service Robotics",
     "author": [
       "Masafumi Endo",

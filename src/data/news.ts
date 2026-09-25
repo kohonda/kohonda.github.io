@@ -7,6 +7,10 @@ export interface NewsEntry {
 export const news: NewsEntry[] = [
     {
         date: "Sep. 2026",
+        html: 'New preprint "<a href="https://arxiv.org/abs/2609.28976" target="_blank" rel="noopener noreferrer">ReVNM: Learning-Based Visual Navigation from a Remote Camera</a>" is now available on arXiv.',
+    },
+    {
+        date: "Sep. 2026",
         html: '"From Instruction to Inheritance: Scaling Robot Learning Through Knowledge Circulation" (Kawaharazuka et al.) has been accepted for publication in Advanced Intelligent Systems.',
     },
     {

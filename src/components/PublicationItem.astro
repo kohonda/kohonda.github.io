@@ -32,7 +32,9 @@ const links = [
   { href: pub.poster, label: "Poster", icon: "tabler:layout-board" },
 ].filter((link) => link.href);
 
-const isMe = (name: string) => name === "Kohei Honda" || name === "本田 康平";
+// Authors may carry a trailing equal-contribution marker (e.g. "Kohei Honda*")
+const stripMarks = (name: string) => name.replace(/[*†]+$/, "");
+const isMe = (name: string) => ["Kohei Honda", "本田 康平"].includes(stripMarks(name));
 ---
 
 <li class:list={["list-none py-3", pub.award && "border-l-2 border-award pl-4"]}>
