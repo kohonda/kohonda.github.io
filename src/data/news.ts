@@ -35,7 +35,7 @@ export const news: NewsEntry[] = [
     },
     {
         date: "Apr. 2026",
-        html: 'New preprint "<a href="https://arxiv.org/abs/2604.07672" target="_blank" rel="noopener noreferrer">Reset-Free Reinforcement Learning for Real-World Agile Driving: An Empirical Study</a>" is now available on arXiv.',
+        html: 'New preprint "<a href="https://arxiv.org/abs/2604.07672" target="_blank" rel="noopener noreferrer">ReBound: Reset-Free Reinforcement Learning for Agile Driving via Reset-Aware Semi-Markov Bootstrapping</a>" is now available on arXiv.',
     },
     {
         date: "Jan. 2026",
