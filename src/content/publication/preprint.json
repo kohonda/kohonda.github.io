@@ -69,9 +69,10 @@
     "desc": ""
   },
   {
-    "title": "Reset-Free Reinforcement Learning for Real-World Agile Driving: An Empirical Study",
+    "title": "ReBound: Reset-Free Reinforcement Learning for Agile Driving via Reset-Aware Semi-Markov Bootstrapping",
     "author": [
       "Kohei Honda",
+      "Aiki Kada",
       "Hirotaka Hosogaya"
     ],
     "booktitle": "arXiv",
